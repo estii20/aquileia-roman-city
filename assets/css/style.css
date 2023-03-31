@@ -27,3 +27,36 @@ h1, h2 {
     margin-left: 40px;
 }
 
+/* navigation links*/
+
+#menu {
+    font-size: 150%;
+    letter-spacing: 4px;
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style: none;
+    margin-right: 40px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #E96E14;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
