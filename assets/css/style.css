@@ -75,14 +75,14 @@ h1, h2 {
 }
 
 #left-history {
-    padding-top: 30px;
+    padding-top: 4px;
     width: 60%;
     float: left;
 }
 
 #right-history {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 4px;
     width: 33%;
     float: right;
     background-color: #98cff6;
@@ -111,9 +111,11 @@ hr {
 }
 
 .right-history h2 {
+    font-weight: 900;
     text-align: center;
 }
 
 .right-history p {
+    font-weight: 900;
     text-align: center;
 }
