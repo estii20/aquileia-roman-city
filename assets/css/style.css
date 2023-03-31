@@ -76,15 +76,17 @@ h1, h2 {
 
 #left-history {
     padding-top: 30px;
-    width: 66%;
+    width: 60%;
     float: left;
 }
 
 #right-history {
+    text-align: center;
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: red;
+    background-color: #98cff6;
+    opacity: 0.9;
 }
 
 hr {
@@ -98,4 +100,20 @@ hr {
     clear: both;
     margin-left: 40px;
     margin-bottom: 50px;
+}
+
+.right-history {
+    width: 33%;
+    line-height: 20px;
+    clear: both;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+
+.right-history h2 {
+    text-align: center;
+}
+
+.right-history p {
+    text-align: center;
 }
