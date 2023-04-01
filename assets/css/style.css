@@ -78,7 +78,7 @@ h3 {
 /* history */
 
 #history {
-    height: 660px;
+    height: 700px;
 }
 
 #left-history {
@@ -113,7 +113,7 @@ hr {
     width: 33%;
     line-height: 20px;
     clear: both;
-    margin-right: 40px;
+    margin-right: 20px;
     margin-bottom: 50px;
 }
 
@@ -137,19 +137,40 @@ hr {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
 }
 
 #river-port {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: red;
 }
 
 #market {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
-    background-color: green;
+}
+
+.forum {
+    line-height: 20px;
+    text-align: center;
+    margin-left: 2px;
+    background-color: #98cff6;
+}
+
+.river-port {
+    line-height: 20px;
+    text-align: center;
+    margin-right: 2px;
+    background-color: #98cff6;
+}
+
+.market {
+    line-height: 20px;
+    text-align: center;
+    background-color: #98cff6;
+}
+
+.what-to-see {
+    text-align: center;
 }
