@@ -174,3 +174,7 @@ hr {
 .what-to-see {
     text-align: center;
 }
+
+img {
+    border-radius: 8px;
+  }
