@@ -21,6 +21,13 @@ h1, h2 {
     color: #E96E14;
 }
 
+h3 {
+    font-family: volkhov, sans-serif;
+    text-transform: none;
+    letter-spacing: 4px;
+    color: #E96E14;
+}
+
 #logo {
     float: left;
     font-size: 280%;
@@ -71,7 +78,7 @@ h1, h2 {
 /* history */
 
 #history {
-    height: 600px;
+    height: 660px;
 }
 
 #left-history {
@@ -118,4 +125,31 @@ hr {
 .right-history p {
     font-weight: 900;
     text-align: center;
+}
+
+/* what to see */
+
+#what-to-see {
+    height: 600px;
+}
+
+#forum {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#river-port {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: red;
+}
+
+#market {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
 }
