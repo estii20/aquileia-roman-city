@@ -210,18 +210,38 @@ img {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: red;
+    background-color: #98cff6;
   }
 
   #right-visit {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: green;
+    background-color: #98cff6;
   }
 
   #center-visit {
     width: 33%;
     margin: 0 auto;
-    background-color: blue;
+    background-color: #98cff6;
+  }
+
+  .left-visit {
+    line-height: 20px;
+    text-align: center;
+    margin-left: 2px;
+    background-color: #98cff6;
+  }
+
+  .right-visit {
+    line-height: 20px;
+    text-align: center;
+    margin-left: 2px;
+    background-color: #98cff6;
+  }
+
+  .center-visit {
+    line-height: 20px;
+    text-align: center;
+    background-color: #98cff6;
   }
