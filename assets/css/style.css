@@ -198,3 +198,30 @@ img {
     margin: 1%;
     padding: 5%;
   }
+
+  /* visitor information*/
+
+  #visitor-information {
+    height: 600px;
+    clear: both;
+  }
+
+  #left-visit {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: red;
+  }
+
+  #right-visit {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: green;
+  }
+
+  #center-visit {
+    width: 33%;
+    margin: 0 auto;
+    background-color: blue;
+  }
