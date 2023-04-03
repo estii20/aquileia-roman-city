@@ -240,8 +240,18 @@ img {
     background-color: #98cff6;
   }
 
+  #visit-us {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 150%;
+  }
+
   .center-visit {
     line-height: 20px;
     text-align: center;
+    padding-top: 10px;
     background-color: #98cff6;
   }
+
+
+  
