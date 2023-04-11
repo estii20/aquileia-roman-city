@@ -271,7 +271,13 @@ img {
     padding-top: 4px;
     width: 33%;
     float: right;
-    background-color: red;
+   }
+
+   .right-contact {
+    line-height: 20px;
+    text-align: center;
+    margin-left: 2px;
+    background-color: #98cff6;
    }
 
 
