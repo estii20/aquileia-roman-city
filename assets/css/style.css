@@ -255,20 +255,22 @@ img {
    /* contact information*/
 
    #contact {
-    height: 600px;
+    height: 500px;
     clear: both;
    }
 
    #left-contact {
-    padding-top: 4px;
-    width: 66%;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 4px;
+    width: 60%;
     float: left;
-    background-color: blue;
    }
 
    #right-contact {
     text-align: center;
-    padding-top: 4px;
+    padding-top: 10px;
+    margin-right: 4px;
     width: 33%;
     float: right;
    }
@@ -278,6 +280,18 @@ img {
     text-align: center;
     margin-left: 2px;
     background-color: #98cff6;
+   }
+
+   .left-contact {
+    line-height: 20px;
+    text-align: left;
+    margin-left: 20px;
+    
+    border-style: solid;
+   }
+
+   .contact-us {
+    text-align: center;
    }
 
 

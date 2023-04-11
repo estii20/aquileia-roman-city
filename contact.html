@@ -31,8 +31,24 @@
         </nav>
     </header>
         <section id="contact">
-            <h2>Contact Us</h2>
-            <div id="left-contact">Left</div>
+            <div id="left-contact" class="left-contact">
+                <form action="https://formdump.codeinstitute.net/" method="POST"></form>
+                        <h3 class="contact-us"><i class="fa-solid fa-address-card" style="color: #e96e14;"></i> Contact Us</h3>
+                        <hr>
+                        <p>
+                            If you require any further information please contact us using the form below
+                        </p>
+                        <label for="fname">First Name</label>
+                        <input id="fname" type="text" name="first_name" required>
+                        <label for="lname">Last Name</label>
+                        <input id="lname" type="text" name="last_name" required>
+                        <label for="email">Email Address</label>
+                        <input id="email" type="email" name="email_address" required>
+                        <label for="message">Your message</label>
+                        <input id="message" type="text" name="message" required>
+                        <input type="submit" value="Send message">
+                    </form>
+            </div>
             <div id="right-contact" class="right-contact">
                 <hr>
                 <p>
