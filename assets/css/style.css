@@ -255,14 +255,14 @@ img {
    /* contact information*/
 
    #contact {
-    height: 500px;
+    height: 600px;
     clear: both;
    }
 
    #left-contact {
     padding-top: 10px;
     padding-left: 10px;
-    margin-left: 4px;
+    margin-left: 50px;
     width: 60%;
     float: left;
    }
@@ -280,19 +280,64 @@ img {
     text-align: center;
     margin-left: 2px;
     background-color: #98cff6;
+    height: 550px;
    }
 
+   /* Form */
+
    .left-contact {
-    line-height: 20px;
-    text-align: left;
-    margin-left: 20px;
-    
-    border-style: solid;
+    clear: left;
+    background-color: #98cff6;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
    }
 
    .contact-us {
-    text-align: center;
+    text-align: left;
    }
+
+   .contact-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+   }
+
+   .text-input {
+    background: transparent;
+    color: #3a3a3a;
+    width: 95%;
+    height: 25px;
+    margin: 5px 0 20px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+   }
+
+   .text-input:hover {
+    border-color: #3a3a3a;
+   }
+
+   .send {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 18px 30px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #E96E14;
+    color: #3a3a3a;
+    display: block;
+   }
+
+   .send:hover {
+    background-color: #fafafa;
+    color: #3a3a3a;
+   }
+
+
+
 
 
   
