@@ -361,12 +361,14 @@ img {
     }
 
     #forum, #river-port {
+        background-color: #fafafa;
         width: 100%;
         float: left;
         padding: 0;
     }
 
     #market {
+        background-color: #fafafa;
         clear: both;
         width: 100%;
         float: left;
