@@ -338,14 +338,14 @@ img {
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
+    #hero-image {
+        width: 65%;
+        margin: 0 auto;
+    }
+    
     #history {
         width: 65%;
         height: 1200px;
-        margin: 0 auto;
-    }
-
-    #hero-image {
-        width: 65%;
         margin: 0 auto;
     }
 
@@ -354,7 +354,7 @@ img {
         margin: 0;
     }
 
-    #left-visit, #right-visit {
+    #left-history, #right-history {
         width: 100%;
         float: left;
         padding: 0;
@@ -447,15 +447,34 @@ img {
         margin: 0 auto;
     }
 
+    #visitor-information {
+        width: 90%;
+        height: 1750px;
+        margin: 0 auto;
+    }
+
     #left-visit, #right-visit {
         width: 90%;
         float: left;
         margin: 0 auto;
     }
 
+    #center-visit {
+        clear: both;
+        width: 90%;
+        margin: 0 auto;
+    }
+
     .what-to-see {
         text-align: left;
     }
+
+    .social-media {
+        width: 90%;
+        float: left;
+        margin: 0 auto;
+    }
+
 }
 
 
