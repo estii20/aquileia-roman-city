@@ -411,6 +411,10 @@ img {
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
+    h2 {
+        text-align: left;
+    }
+
     #menu {
         clear: left;
         float: left;
@@ -418,6 +422,42 @@ img {
         margin-bottom: 20px;
         line-height: 25px;
     }
+
+    #history {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #left-history, #right-history {
+        width: 90%;
+        float: left;
+        margin: 0 auto;
+    }
+
+    #hero-image {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #what-to-see {
+        clear: both;
+        width: 90%;
+        height: 1350px;
+        margin: 0 auto;
+    }
+
+    #left-visit, #right-visit {
+        width: 90%;
+        float: left;
+        margin: 0 auto;
+    }
+
+    .what-to-see {
+        text-align: left;
+    }
+}
+
 
 
 
