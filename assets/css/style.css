@@ -375,6 +375,25 @@ img {
         padding: 0;
     }
 
+    #visitor-information {
+        width: 65%;
+        height: 1700px;
+        margin: 0 auto;
+    }
+
+    #left-visit, #right-visit {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-visit {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
 }
 
 
