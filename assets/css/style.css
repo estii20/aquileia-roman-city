@@ -262,7 +262,6 @@ img {
    #left-contact {
     padding-top: 10px;
     padding-left: 10px;
-    margin-left: 50px;
     width: 60%;
     float: left;
    }
@@ -271,14 +270,13 @@ img {
     text-align: center;
     padding-top: 10px;
     margin-right: 4px;
-    width: 33%;
+    width: 30%;
     float: right;
    }
 
    .right-contact {
     line-height: 20px;
     text-align: center;
-    margin-left: 2px;
     background-color: #98cff6;
     height: 550px;
    }
@@ -394,7 +392,21 @@ img {
         padding: 0;
     }
 
+    #contact {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #left-contact, #right-contact {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
 }
+
+
 
 
 
