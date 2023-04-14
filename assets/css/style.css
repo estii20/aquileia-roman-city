@@ -153,20 +153,20 @@ hr {
     line-height: 20px;
     text-align: center;
     margin-left: 2px;
-    background-color: #98cff6;
+    background-color: rgb(152, 207, 246, 0.5);
 }
 
 .river-port {
     line-height: 20px;
     text-align: center;
     margin-right: 2px;
-    background-color: #98cff6;
+    background-color: rgb(152, 207, 246, 0.5);
 }
 
 .market {
     line-height: 20px;
     text-align: center;
-    background-color: #98cff6;
+    background-color: rgb(152, 207, 246, 0.5);
 }
 
 .what-to-see {
@@ -209,34 +209,34 @@ img {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: #98cff6;
+    background-color: rgb(152, 207, 246, 0.5);
   }
 
   #right-visit {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: #98cff6;
+    background-color: rgb(152, 207, 246, 0.5);
   }
 
   #center-visit {
     width: 33%;
     margin: 0 auto;
-    background-color: #98cff6;
+    background-color: rgb(152, 207, 246, 0.5);
   }
 
   .left-visit {
     line-height: 20px;
     text-align: center;
     margin-left: 2px;
-    background-color: #98cff6;
+    background-color: rgb(152, 207, 246, 0.5);
   }
 
   .right-visit {
     line-height: 20px;
     text-align: center;
     margin-left: 2px;
-    background-color: #98cff6;
+    background-color: rgb(152, 207, 246, 0.5);
   }
 
   #visit-us {
@@ -249,35 +249,35 @@ img {
     line-height: 20px;
     text-align: center;
     padding-top: 10px;
-    background-color: #98cff6;
+    background-color: rgb(152, 207, 246, 0.5);
   }
 
    /* contact information*/
 
    #contact {
-    height: 600px;
+    background-image: url('..//images/collumns_600x600.jpg');
+    height: 560px;
     clear: both;
    }
 
    #left-contact {
     padding-top: 10px;
     padding-left: 10px;
-    width: 60%;
+    width: 33%;
     float: left;
    }
 
    #right-contact {
     text-align: center;
     padding-top: 10px;
-    margin-right: 4px;
-    width: 30%;
+    width: 33%;
     float: right;
    }
 
    .right-contact {
     line-height: 20px;
     text-align: center;
-    background-color: #98cff6;
+    background-color: rgb(222, 233, 238, 0.9);
     height: 550px;
    }
 
@@ -285,7 +285,7 @@ img {
 
    .left-contact {
     clear: left;
-    background-color: #98cff6;
+    background-color: rgb(222, 233, 238, 0.9);
     background-size: cover;
     background-position: center;
     height: 550px;
@@ -305,12 +305,12 @@ img {
    }
 
    .text-input {
-    background: transparent;
+    background: beige;
     color: #3a3a3a;
     width: 95%;
     height: 25px;
     margin: 5px 0 20px;
-    border: 1px solid #fafafa;
+    border: 1px solid #3a3a3a;
     border-radius: 2px;
    }
 
@@ -396,7 +396,7 @@ img {
 
     #contact {
         width: 65%;
-        height: 1200px;
+        height: 1100px;
         margin: 0 auto;
     }
 
