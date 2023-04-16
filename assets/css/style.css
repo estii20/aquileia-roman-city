@@ -276,6 +276,11 @@ img {
     clear: both;
    }
 
+   #contact p {
+    margin-top: 10px;
+    margin-bottom: 18px;
+   }
+
    #left-contact {
     padding-top: 10px;
     padding-left: 10px;
