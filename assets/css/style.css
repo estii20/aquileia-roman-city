@@ -346,6 +346,15 @@ img {
 
    /* Media queries */
 
+/* For larger screens size minimum 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    body {
+        max-width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #hero-image {
