@@ -328,6 +328,8 @@ img {
    .text-input {
     background: beige;
     color: #3a3a3a;
+    font-family: sans-serif;
+    padding-left: 5px;
     width: 95%;
     height: 25px;
     margin: 5px 0 20px;
