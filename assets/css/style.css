@@ -215,6 +215,11 @@ img {
     clear: both;
   }
 
+  #visitor-information p {
+    margin-top: 10px;
+    margin-bottom: 18px;
+  }
+
   #left-visit {
     padding-top: 30px;
     width: 33%;
@@ -230,6 +235,7 @@ img {
   }
 
   #center-visit {
+    padding-top: 30px;
     width: 33%;
     margin: 0 auto;
     background-color: rgb(152, 207, 246, 0.5);
@@ -258,7 +264,7 @@ img {
   .center-visit {
     line-height: 20px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 30px;
     background-color: rgb(152, 207, 246, 0.5);
   }
 
