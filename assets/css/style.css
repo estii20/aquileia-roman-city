@@ -81,6 +81,11 @@ h3 {
     height: 700px;
 }
 
+#history p {
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
 #left-history {
     padding-top: 4px;
     width: 60%;
