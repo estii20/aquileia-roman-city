@@ -136,6 +136,11 @@ hr {
     height: 600px;
 }
 
+#what-to-see p {
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
 #forum {
     padding-top: 30px;
     width: 33%;
