@@ -95,7 +95,7 @@ h3 {
 #right-history {
     text-align: center;
     padding-top: 4px;
-    width: 33%;
+    width: 30%;
     float: right;
 }
 
@@ -108,15 +108,14 @@ hr {
     width: 60%;
     line-height: 20px;
     clear: both;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-bottom: 50px;
 }
 
 .right-history {
-    width: 33%;
+    width: 30%;
     line-height: 20px;
-    clear: both;
-    margin-right: 20px;
+    margin-right: 10px;
     margin-bottom: 50px;
 }
 
@@ -134,6 +133,7 @@ hr {
 
 #what-to-see {
     height: 600px;
+    clear: both;
 }
 
 #what-to-see p {
