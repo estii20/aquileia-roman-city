@@ -318,10 +318,8 @@ img {
    }
 
    .contact-form {
-    margin: 150px 10% 0 0;
-    color: #fff;
-    max-width: 400px;
-    position: absolute;
+    margin: 4px 10% 0 0;
+    max-width: 350px;
     left: 10%;
     padding: 30px;
    }
