@@ -509,6 +509,12 @@ img {
 
 }
 
+/* For small screen sizes below 800px width */
+@media screen and (max-width: 800px) {
+    #hero-image {
+        display: none;
+}
+
 
 
 
