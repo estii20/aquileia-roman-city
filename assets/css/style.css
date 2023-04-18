@@ -364,8 +364,8 @@ img {
 @media screen and (max-width: 1200px) {
     body {
         max-width: 60%;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 20%;
+        margin-right: 20%;
     }
 }
 
@@ -527,6 +527,19 @@ img {
         display: none;
     }
 
+}
+
+/* For small screen sizes below 320px width */
+@media screen and (max-width: 320px) {
+
+    #menu {
+        margin-left: 0;
+    }
+
+    .social-media {
+        max-width: 100%;
+        margin-left: 0;
+    }
 }
 
 
