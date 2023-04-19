@@ -2,7 +2,7 @@
 
 A website to attract and inform visitors of the historic Roman UNESCO site of Aquileia, Fruili-Venezia Guilia, Italy.
 
-## Portfolio Project 1 - Estelle Specht
+## Portfolio Project 1 
 
 [Live Site](https://8000-estii20-aquileiaromanci-jh99q20ifjj.ws-eu94.gitpod.io/index.html) 
 
@@ -10,17 +10,19 @@ A website to attract and inform visitors of the historic Roman UNESCO site of Aq
 
 ## Table of contents
 
-1. UX Design
-2. Features
-3. Future Features
-4. Technology Used
-5. Accessibility
-6. Testing
-7. Deployment
-8. Credits
-9. Acknowledgements
+1. [UX Design](#ux-design)
+2. [Features](#features)
+3. [Future Features](#future-features)
+4. [Technology Used](#technology-used)
+5. [Accessibility Features](#accessibility-features)
+6. [Testing](#testing)
+7. [Bugs and Fixes](#bugs-and-fixes)
+8. [Unfixed Bugs](#unfixed-bugs)
+9. [Deployment](#deployment)
+10. [Credits](#credits)
+11. [Acknowledgements](#acknowledgements)
 
-### UX Design
+## UX Design
 
 To attract English speaking visitors to the UNESCO Roman City in Aquileia. It was one of the most important cities in the Roman Empire.
 Visitors have the opportunity to see the key historic sites of the Roman Forum, the River Port, the main square and Ancient Necropolis. The historical information is next to the images to provide a cohesive structure.
@@ -29,7 +31,7 @@ A timeline offers users an easy to read timeline detailing key important dates.
 The purpose of the website is to provide visitors information so that they can plan their visit in advance. There is a map of the area, the contact details, admission price, opening times and a contact form for any further information.
 
 The primary user of the site will be English speaking visitors to the region. For visitors to the major cities of Venice and Trieste, Aquileia is ideally suited for those visitors venturing further afield who have an interest in historic, namely Roman culture. The site is very well maintained and much of the architecture is complete in structure. Aquileia is a rare and beautiful UNESCO heritage site.
-The user will be able to plan an overnight visit, to really take in the full beauty of the site.
+The user will be able to plan a visit, to really take in the full beauty of the site.
 
  __Aims__
 
@@ -64,7 +66,7 @@ The site itself is close to me and I am very passionate about this period of his
 
 __Skeleton__
 
-Webpage and mobile version made using [Balsamiq](https://balsamiq.cloud/skgv95c/pk5rjyb)
+Webpage and mobile version made using [Balsamiq](https://balsamiq.cloud/skgv95c/pk5rjyb).
 
 ![Balsamiq design of index.html](assets/images/Screenshot%202023-04-17%20155810.png "Balsamiq Design for index.html")
 
@@ -80,23 +82,23 @@ To create a clear visual guide to the user to promote the history of the site.
 
 __Background Color__
 
-Header and Footer both use #e96e14, a golden orange color to complement the Italian imagery palette selected from the hero image aided by [eyedropper tool Chrome extension](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka?hl=pt).
-Body uses a background color white #fafafa to contrast well with the charcoal font-color #3a3a3a. Used the color light blue rgb(222, 233, 238, 0.9) with opacity to draw the reader's attention to the content without distracting from the information. The color was chosen for the background to compliment the colors of the sky in the images used.
+Header and Footer both use ` #e96e14 `, a golden orange color to complement the Italian imagery palette selected from the hero image aided by [eyedropper tool Chrome extension](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka?hl=pt).
+Body uses a background color white ` #fafafa ` to contrast well with the charcoal font-color ` #3a3a3a `. Used the color light blue ` rgb(222, 233, 238, 0.9) ` with opacity to draw the reader's attention to the content without distracting from the information. The color was chosen for the background to compliment the colors of the sky in the images used.
 
 [Colorspace](https://mycolor.space/) used to check the palette works together. 
 
 __Font Color__
 
-H1, h2 and h3 headings used the color #e96e14 to complement the logo.
-The body text used the #3a3a3a to enable easy viewing for the reader against the background therefore the text stood out well without causing the reader to strain to read it. 
+H1, h2 and h3 headings used the color ` #e96e14 ` to complement the logo.
+The body text used the ` #3a3a3a ` to enable easy viewing for the reader against the background therefore the text stood out well without causing the reader to strain to read it. 
 
 __Border Color__
 
-The border color charcoal #3a3a3 used to compliment the body font color.
+The border color charcoal ` #3a3a3 ` used to compliment the body font color.
 
 __Form Color__
 
-The Contact form uses the background of light beige rgb(222, 233, 238, 0.9) to contrast with the background image of The Forum, the input fields are beige to make the content text input area stand out on the background. The border color again uses the color charcoal #3a3a3a.
+The Contact form uses the background of light beige ` rgb(222, 233, 238, 0.9) ` to contrast with the background image of The Forum, the input fields are beige ` #F5F5DC ` to make the content text input area stand out on the background. The border color again uses the color charcoal ` #3a3a3a `.
 
 __Fonts__
 
@@ -108,7 +110,7 @@ __Fonts__
 
 - [Font Awesome](https://fontawesome.com/) used to add visual cues to the logo, headings, contact information, social media and timeline.
 
-### Features
+## Features
 
 __Homepage__
 
@@ -137,7 +139,7 @@ __What to see section__
 
 ![The Forum, The Port, The Market](assets/images/visit.png "Roman Aquileia Forum, Market and Port")
 
-Features The Forum, The Market and The River Port
+Features The Forum, The Market and The River Port.
 Each features an image of what to see at each area of the site.
 
 All images have alt text labels to help with the accessibility of the website.
@@ -150,7 +152,7 @@ Links to the main social media are used and are centered within the footer.
 The links are colored to compliment the Logo and headers.
 Links have been given aria labels to help with user accessibility, they open in a separate window so the user can navigate easily between sites.
 
-### Visit Page
+__Visit page__
 
 - Header with Logo and Navigation Links
 - Opening times
@@ -173,7 +175,7 @@ Lastly there is a recommendation for local restaurants to encourage visitors to 
 
 Images and a map are added to inform the user further.
 
-### Contact Page
+__Contact page__
 
 - Header with Logo and Navigation Links
 - Background image of Roman Columns
@@ -194,6 +196,180 @@ The send message button is styled to encourage the user to submit a message. The
 The Form connects to the Code Institute Form test site.
 
 Information on alternative methods to contact Aquileia by email and phone are listed.
+
+## Future Features
+
+It would be helpful in the future to link the map to google maps using javascript.
+Further languages such as German and Spanish could be added to the site for non-English speakers.
+The Visit section could be updated to feature sponsored links to the restaurants listed. Therefore raising user experience and also revenue for the website.
+
+## Technology Used
+
+__HTML__
+
+Provides structure to the content
+
+__CSS__
+
+Provides style to the content and user accessibility. Media queries to adjust to different screen sizes.
+
+__Font Awesome__
+
+[Font Awesome](https://fontawesome.com/) provides visual cues to the user on the pages and was used for the social media icons.
+
+__Google Fonts__
+
+The entire website uses [Google Fonts](https://fonts.google.com/). Sans-serif used as an alternative in case of issues viewing on different browsers.
+
+__Fontjoy__
+
+[Fontjoy](https://fontjoy.com/) helped me to find the chosen fonts.
+
+__Canva__
+
+[Canva](https://www.canva.com/templates/) used to make the Hero Image for the homepage.
+
+__Image Resizer__
+
+[Simple Image Resizer](https://www.simpleimageresizer.com/upload)
+Images resized to 600 px 600 px so that the images could be curved at the corner to soften them.
+
+__Balsamiq__
+
+[Balsamiq](https://balsamiq.cloud/skgv95c/pk5rjyb) used to design the arrangement of the site.
+
+__Colorspace__
+
+[Colorspace](https://mycolor.space/) used to check the palette works together. 
+
+[Eyedropper tool Chrome extension](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka?hl=pt) to find color for fonts within the main hero image.
+
+
+## Accessibility Features
+
+All images have alt labels.
+
+Links to external sites have aria labels
+
+Text color chosen contrasts well to the background color to improve user visibility.
+
+Semantic html to define the different sections namely the header, sections and footer elements.
+
+## Testing
+
+the Navigation Links respond to the correct page - [x]
+
+All external links open in correct page in a new tab/window - [x]
+
+Social media links in footer link correctly to the relevant external site - [x]
+
+Content is responsive in smaller and larger screen sizes - []
+
+Message Form correctly can obtain the correct format and is requires an input - [x]
+
+__Further testing__
+
+Family checked for spelling and layout issues.
+
+Tested on different browsers to ensure functionality.
+
+Asked testers to check that the site was informative to them.
+
+Testers commented that SAT Nav coordinates and address should be added to the visit section.
+
+## Bugs and Fixes
+
+Dev tools in Chrome showed that the height of the visit and contact section needed to be increased.
+
+Media query for large screens added so that the site floats center with white space to the left and right when loaded.
+
+Safari browser used to test the contact form in case of variability to the design.
+
+Background color removed from What to see section as it was too distracting on smaller screens. Background color changes to white on small screens to enable users to read the content.
+
+Font awesome styling amended using CSS only.
+
+## Unfixed Bugs
+
+Add here info
+
+__Validators__
+
+Homepage, Visit page, Contact page and CSS all passed without error using W3C HTML and CSS validators. 
+
+[W3C HTML Validator](https://validator.w3.org/) and
+[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+Screenshot of W3C Validator test, all pages passed [x]
+
+![Aquileia Roman City Website](assets/images/visit-w3c.png "Aquileia Roman City wesbite validator test")
+
+![CSS](assets/images/css-w3c.png "CSS for Aquileia Roman City website validator test")
+
+Screenshot for Google Lighthouse test, all pages passed [x]
+
+![Homepage](assets/images/homepage-lighthouse.png "Aquileia Roamn City Visitor Information lighthouse test")
+
+![Visit](assets/images/visit-lighthouse.png "Aquileia Roman City Contact Form and Information lighthouse test")
+
+![Contact](assets/images/contact-lighthouse.png "CSS for Aquileia Roman City website lighthouse test")
+
+## Deployment 
+
+To access this project in GitHub;
+
+Firstly Log into [Github](https://github.com/)
+Select repository [estii20/aquileia_roman_city](https://github.com/estii20/aquileia-roman-city)
+Select settings from menu
+Select Pages from left menu bar
+Scroll and select Master branch from the drop down menu to deploy the website
+Retrieve the automatically generated link from the GitHub pages section.
+
+Running the project locally;
+
+To create a clone of this project follow the instructions below;
+
+Create a GitPod account [Gitpod](https://gitpod.io/login/)
+Open the Chrome browser
+Click to the top of the Chrome navigation bar and enable the extension Gitpod Browser Extension for Chrome. Link it
+Restart the browser when prompted to do so.
+Log into GitPod with your account username and password.
+Select the project in GitHub repositories
+Click on the green “Gitpod” button to the top right of the page
+A new gitpod workspace opens
+It is now possible to work locally on the project.
+
+## Credits
+
+Map image taken from [Informaggiovani-Italia Aquileia Map](https://www.informagiovani-italia.com/map_of_aquileia.htm)
+
+Content information researched using
+[Wikapedia](https://en.wikipedia.org/wiki/Aquileia)
+
+[Visit World Heritage](https://visitworldheritage.com/en/eu/archaeological-area-and-the-patriarchal-basilica-of-aquileia-italy/f903e5e3-90b8-43e1-8202-b09815a9da9a)
+
+[Google Arts and Culture](https://artsandculture.google.com/story/archaeological-area-and-the-patriarchal-basilica-of-aquileia-italy-unesco/QAWxLyfz6n4tIw?hl=en)
+
+[Google for local restaurants](https://www.google.com/search?q=aquileia+restaurants+nearby&oq=aquileia+restaurants+nearby&aqs=chrome..69i57j0i546l4.7781j0j9&sourceid=chrome&ie=UTF-8)
+
+README.md was adapted from [Anna Greaves README.md](https://github.com/AJGreaves/portrait-artist/blob/master/README.md) 
+
+Footer with Social Media icons from [CI Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/e6d4cda2bc08458ba94d2092be9bad3a/)
+
+## Acknowledgements
+
+Mentor - Brian Macharia
+
+Support of Code Institute Team
+
+
+
+
+
+
+
+
+
 
 
 
