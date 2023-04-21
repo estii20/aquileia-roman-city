@@ -4,28 +4,28 @@ A website to attract and inform visitors of the historic Roman UNESCO site of Aq
 
 ## Portfolio Project 1 
 
-[Live Site](https://8000-estii20-aquileiaromanci-jh99q20ifjj.ws-eu94.gitpod.io/index.html) 
+[Live Site](https://estii20.github.io/aquileia-roman-city/) 
 
-[Link](https://ui.dev/amiresponsive?url=https://estii20.github.io/aquileia-roman-city/)
+[Website Mock-up](https://ui.dev/amiresponsive?url=https://estii20.github.io/aquileia-roman-city/)
 
 ## Table of contents
 
-1. [UX Design](#ux-design)
-2. [Features](#features)
-3. [Future Features](#future-features)
-4. [Technology Used](#technology-used)
-5. [Accessibility Features](#accessibility-features)
-6. [Testing](#testing)
-7. [Bugs and Fixes](#bugs-and-fixes)
-8. [Unfixed Bugs](#unfixed-bugs)
-9. [Deployment](#deployment)
+1.  [UX Design](#ux-design)
+2.  [Features](#features)
+3.  [Future Features](#future-features)
+4.  [Technology Used](#technology-used)
+5.  [Accessibility Features](#accessibility-features)
+6.  [Testing](#testing)
+7.  [Bugs and Fixes](#bugs-and-fixes)
+8.  [Unfixed Bugs](#unfixed-bugs)
+9.  [Deployment](#deployment)
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
 
 ## UX Design
 
 To attract English speaking visitors to the UNESCO Roman City in Aquileia. It was one of the most important cities in the Roman Empire.
-Visitors have the opportunity to see the key historic sites of the Roman Forum, the River Port, the main square and Ancient Necropolis. The historical information is next to the images to provide a cohesive structure.
+Visitors have the opportunity to see the key historic sites of the Roman Forum, the River Port and the main Market square. The historical information is next to the images to provide a cohesive structure.
 A timeline offers users an easy to read timeline detailing key important dates.
 
 The purpose of the website is to provide visitors information so that they can plan their visit in advance. There is a map of the area, the contact details, admission price, opening times and a contact form for any further information.
@@ -82,7 +82,7 @@ To create a clear visual guide to the user to promote the history of the site.
 
 __Background Color__
 
-Header and Footer both use ` #e96e14 `, a golden orange color to complement the Italian imagery palette selected from the hero image aided by [eyedropper tool Chrome extension](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka?hl=pt).
+Header and Footer both use ` #e96e14 `, a golden orange color to complement the Italian imagery palette selected from the hero image aided by the [eyedropper tool Chrome extension](https://chrome.google.com/webstore/category/extensions).
 Body uses a background color white ` #fafafa ` to contrast well with the charcoal font-color ` #3a3a3a `. Used the color light blue ` rgb(222, 233, 238, 0.9) ` with opacity to draw the reader's attention to the content without distracting from the information. The color was chosen for the background to compliment the colors of the sky in the images used.
 
 [Colorspace](https://mycolor.space/) used to check the palette works together. 
@@ -242,14 +242,14 @@ __Colorspace__
 
 [Colorspace](https://mycolor.space/) used to check the palette works together. 
 
-[Eyedropper tool Chrome extension](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka?hl=pt) to find color for fonts within the main hero image.
+[Eyedropper tool Chrome extension](https://chrome.google.com/webstore/category/extensions) to find color for fonts within the main hero image.
 
 
 ## Accessibility Features
 
 All images have alt labels.
 
-Links to external sites have aria labels
+Links to external sites have aria labels.
 
 Text color chosen contrasts well to the background color to improve user visibility.
 
@@ -257,7 +257,7 @@ Semantic html to define the different sections namely the header, sections and f
 
 ## Testing
 
-the Navigation Links respond to the correct page - [x]
+The Navigation Links respond to the correct page - [x]
 
 All external links open in correct page in a new tab/window - [x]
 
@@ -306,7 +306,7 @@ Screenshot of W3C Validator test, all pages passed [x]
 
 ![CSS](assets/images/css-w3c.png "CSS for Aquileia Roman City website validator test")
 
-Screenshot for Google Lighthouse test, all pages passed [x]
+Screenshot for Google Lighthouse test, all pages passed []
 
 ![Homepage](assets/images/homepage-lighthouse.png "Aquileia Roamn City Visitor Information lighthouse test")
 
@@ -318,25 +318,25 @@ Screenshot for Google Lighthouse test, all pages passed [x]
 
 To access this project in GitHub;
 
-Firstly Log into [Github](https://github.com/)
-Select repository [estii20/aquileia_roman_city](https://github.com/estii20/aquileia-roman-city)
-Select settings from menu
-Select Pages from left menu bar
-Scroll and select Master branch from the drop down menu to deploy the website
+Firstly Log into [Github](https://github.com/).
+Select repository [estii20/aquileia_roman_city](https://github.com/estii20/aquileia-roman-city).
+Select settings from menu.
+Select Pages from left menu bar.
+Scroll and select Master branch from the drop down menu to deploy the website.
 Retrieve the automatically generated link from the GitHub pages section.
 
 Running the project locally;
 
 To create a clone of this project follow the instructions below;
 
-Create a GitPod account [Gitpod](https://gitpod.io/login/)
-Open the Chrome browser
+Create a GitPod account [Gitpod](https://gitpod.io/login/).
+Open the Chrome browser.
 Click to the top of the Chrome navigation bar and enable the extension Gitpod Browser Extension for Chrome. Link it
 Restart the browser when prompted to do so.
 Log into GitPod with your account username and password.
-Select the project in GitHub repositories
-Click on the green “Gitpod” button to the top right of the page
-A new gitpod workspace opens
+Select the project in GitHub repositories.
+Click on the green “Gitpod” button to the top right of the page.
+A new gitpod workspace opens.
 It is now possible to work locally on the project.
 
 ## Credits
@@ -346,7 +346,7 @@ Map image taken from [Informaggiovani-Italia Aquileia Map](https://www.informagi
 Content information researched using
 [Wikapedia](https://en.wikipedia.org/wiki/Aquileia)
 
-[Visit World Heritage](https://visitworldheritage.com/en/eu/archaeological-area-and-the-patriarchal-basilica-of-aquileia-italy/f903e5e3-90b8-43e1-8202-b09815a9da9a)
+Footer with Social Media icons from [CI Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/e6d4cda2bc08458ba94d2092be9bad3a/)
 
 [Google Arts and Culture](https://artsandculture.google.com/story/archaeological-area-and-the-patriarchal-basilica-of-aquileia-italy-unesco/QAWxLyfz6n4tIw?hl=en)
 
@@ -354,7 +354,7 @@ Content information researched using
 
 README.md was adapted from [Anna Greaves README.md](https://github.com/AJGreaves/portrait-artist/blob/master/README.md) 
 
-Footer with Social Media icons from [CI Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/e6d4cda2bc08458ba94d2092be9bad3a/)
+[Visit World Heritage](https://visitworldheritage.com/en/eu/archaeological-area-and-the-patriarchal-basilica-of-aquileia-italy/f903e5e3-90b8-43e1-8202-b09815a9da9a)
 
 ## Acknowledgements
 
