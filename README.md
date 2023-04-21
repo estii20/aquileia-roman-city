@@ -242,6 +242,8 @@ __Colorspace__
 
 [Colorspace](https://mycolor.space/) used to check the palette works together. 
 
+__Eyedropper tool Chrome Extension__
+
 [Eyedropper tool Chrome extension](https://chrome.google.com/webstore/category/extensions) to find color for fonts within the main hero image.
 
 
@@ -306,7 +308,7 @@ Screenshot of W3C Validator test, all pages passed [x]
 
 ![CSS](assets/images/css-w3c.png "CSS for Aquileia Roman City website validator test")
 
-Screenshot for Google Lighthouse test, all pages passed []
+Screenshot for Google Lighthouse test, all pages passed [x]
 
 ![Homepage](assets/images/homepage-lighthouse.png "Aquileia Roamn City Visitor Information lighthouse test")
 

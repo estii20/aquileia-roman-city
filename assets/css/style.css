@@ -317,6 +317,7 @@ img {
 
    .contact-us {
     text-align: left;
+    font-size: 150%;
    }
 
    .contact-form {
@@ -329,7 +330,7 @@ img {
    .text-input {
     background: #F5F5DC;
     color: #3a3a3a;
-    font-family: sans-serif;
+    font-family: volkhov, sans-serif;
     padding-left: 5px;
     width: 95%;
     height: 25px;
@@ -347,7 +348,9 @@ img {
     border-radius: 2px;
     padding: 18px 30px;
     text-align: center;
-    font-size: 100%;
+    font-family: volkhov, sans-serif;
+    font-size: 150%;
+    text-transform: uppercase;
     background-color: #E96E14;
     color: #3a3a3a;
     display: block;
