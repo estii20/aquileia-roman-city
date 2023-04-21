@@ -131,6 +131,11 @@ h3 {
 
 /* what to see */
 
+img {
+    border-radius: 8px;
+    margin: 5px;
+}
+
 #what-to-see {
     clear: both;
     height: 560px;
@@ -183,11 +188,6 @@ h3 {
 
 .what-to-see {
     text-align: center;
-}
-
-img {
-    border-radius: 8px;
-    padding: 10px 10px;
 }
 
   /* footer */
@@ -283,8 +283,8 @@ img {
 }
 
    #contact p {
-    margin-top: 10px;
-    margin-bottom: 18px;
+    padding: 10px;
+    
 }
 
    #left-contact {
@@ -376,8 +376,8 @@ img {
     }
 }
 
-/* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
+/* For larger to medium screens size from 1280px wide and down */
+@media screen and (max-width: 1280px) {
     
     #hero-image {
         clear: both;
