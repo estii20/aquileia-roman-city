@@ -15,6 +15,8 @@ body {
 /* headings and logo*/
 
 h1, h2 {
+    padding-top: 10px;
+    padding-bottom: 18px;
     font-family: volkhov, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -22,6 +24,8 @@ h1, h2 {
 }
 
 h3 {
+    padding-top: 10px;
+    padding-bottom: 18px;
     font-family: volkhov, sans-serif;
     text-transform: none;
     letter-spacing: 4px;
@@ -30,18 +34,18 @@ h3 {
 
 #logo {
     float: left;
-    font-size: 280%;
     margin-left: 40px;
+    font-size: 280%;
 }
 
 /* navigation links*/
 
 #menu {
+    float: right;
+    flex-direction: row;
+    display: flex;
     font-size: 150%;
     letter-spacing: 4px;
-    display: flex;
-    flex-direction: row;
-    float: right;
 }
 
 #menu, #logo {
@@ -87,32 +91,32 @@ h3 {
 }
 
 #left-history {
-    padding-top: 4px;
-    width: 60%;
     float: left;
+    width: 60%;
+    padding-top: 4px;
 }
 
 #right-history {
-    text-align: center;
-    padding-top: 4px;
-    width: 30%;
     float: right;
+    width: 30%;
+    padding-top: 4px;
+    text-align: center;
 }
 
 
 .left-history {
-    width: 60%;
-    line-height: 20px;
     clear: both;
     margin-left: 20px;
     margin-bottom: 50px;
+    width: 60%;
+    line-height: 20px;
 }
 
 .right-history {
-    width: 30%;
-    line-height: 20px;
     margin-right: 10px;
     margin-bottom: 50px;
+    width: 30%;
+    line-height: 20px;
 }
 
 .right-history h2 {
@@ -128,48 +132,47 @@ h3 {
 /* what to see */
 
 #what-to-see {
-    height: 500px;
     clear: both;
+    height: 600px;
 }
 
 #what-to-see p {
-    margin-top: 10px;
-    margin-bottom: 18px;
+    margin: 10px 10px 18px 18px;
 }
 
 #forum {
+    float: left;
+    width: 33%;
     padding-top: 30px;
     padding-bottom: 30px;
-    width: 33%;
-    float: left;
 }
 
 #river-port {
+    float: right;
+    width: 33%;
     padding-top: 30px;
     padding-bottom: 30px;
-    width: 33%;
-    float: right;
 }
 
 #market {
+    margin: 0 auto;
+    width: 33%;
     padding-top: 30px;
     padding-bottom: 30px;
-    width: 33%;
-    margin: 0 auto;
 }
 
 .forum {
-    line-height: 20px;
-    text-align: center;
     margin-left: 2px;
     background-color: rgb(152, 207, 246, 0.5);
+    line-height: 20px;
+    text-align: center;
 }
 
 .river-port {
-    line-height: 20px;
-    text-align: center;
     margin-right: 2px;
     background-color: rgb(152, 207, 246, 0.5);
+    line-height: 20px;
+    text-align: center;
 }
 
 .market {
@@ -184,191 +187,190 @@ h3 {
 
 img {
     border-radius: 8px;
-  }
+}
 
   /* footer */
 
   footer {
-    height: 160px;
     border-top: 1px solid #3a3a3a;
-  }
+    height: 160px;
+}
 
   .social-media {
     text-align: center;
-  }
+}
 
   .social-media > li {
     display: inline;
-  }
+}
 
   .social-media i {
-    font-size: 200%;
     margin: 1%;
     padding: 5%;
+    font-size: 200%;
     color: #E96E14;
-  }
+}
 
   /* visitor information*/
 
   #visitor-information {
-    height: 650px;
     clear: both;
-  }
+    height: 650px;
+}
 
   #visitor-information p {
     margin-top: 10px;
     margin-bottom: 18px;
-  }
+}
 
   #left-visit {
+    float: left;
+    width: 33%;
     padding-top: 30px;
     padding-bottom: 30px;
-    width: 33%;
-    float: left;
     background-color: rgb(152, 207, 246, 0.5);
-  }
+}
 
   #right-visit {
+    float: right;
+    width: 33%;
     padding-top: 30px;
     padding-bottom: 30px;
-    width: 33%;
-    float: right;
     background-color: rgb(152, 207, 246, 0.5);
-  }
+}
 
   #center-visit {
+    margin: 0 auto;
+    width: 33%;
     padding-top: 30px;
     padding-bottom: 30px;
-    width: 33%;
-    margin: 0 auto;
     background-color: rgb(152, 207, 246, 0.5);
-  }
+}
 
   .left-visit {
-    line-height: 20px;
-    text-align: center;
     margin-left: 2px;
     background-color: rgb(152, 207, 246, 0.5);
-  }
+    line-height: 20px;
+    text-align: center;
+}
 
   .right-visit {
-    line-height: 20px;
-    text-align: center;
     margin-left: 2px;
     background-color: rgb(152, 207, 246, 0.5);
-  }
-
-  #visit-us {
-    text-align: center;
-    margin: 10px 0;
-    font-size: 150%;
-  }
-
-  .center-visit {
     line-height: 20px;
     text-align: center;
+}
+
+  #visit-us {
+    margin: 10px 0;
+    font-size: 150%;
+    text-align: center;
+}
+
+  .center-visit {
     padding-top: 30px;
     background-color: rgb(152, 207, 246, 0.5);
-  }
+    line-height: 20px;
+    text-align: center;
+}
 
    /* contact information*/
 
    #contact {
+    clear: both;
     background-image: url('..//images/collumns_600x600.jpg');
     height: 560px;
-    clear: both;
-   }
+}
 
    #contact p {
     margin-top: 10px;
     margin-bottom: 18px;
-   }
+}
 
    #left-contact {
+    float: left;
+    width: 33%;
     padding-top: 10px;
     padding-left: 10px;
-    width: 33%;
-    float: left;
-   }
+}
 
    #right-contact {
-    text-align: center;
-    padding-top: 10px;
-    width: 33%;
     float: right;
-   }
+    width: 33%;
+    padding-top: 10px;
+    text-align: center;
+}
 
    .right-contact {
+    height: 550px;
+    background-color: rgb(222, 233, 238, 0.9);
     line-height: 20px;
     text-align: center;
-    background-color: rgb(222, 233, 238, 0.9);
-    height: 550px;
-   }
+}
 
    /* Form */
 
    .left-contact {
     clear: left;
-    background-color: rgb(222, 233, 238, 0.9);
+    height: 550px;
     background-size: cover;
     background-position: center;
-    height: 550px;
-   }
+    background-color: rgb(222, 233, 238, 0.9);
+}
 
    .contact-us {
-    text-align: left;
     font-size: 150%;
-   }
+    text-align: left;
+}
 
    .contact-form {
     margin: 4px 10% 0 0;
     max-width: 350px;
-    left: 10%;
     padding: 30px;
-   }
+}
 
    .text-input {
-    background: #F5F5DC;
-    color: #3a3a3a;
-    font-family: volkhov, sans-serif;
-    padding-left: 5px;
-    width: 95%;
-    height: 25px;
     margin: 5px 0 20px;
     border: 1px solid #3a3a3a;
     border-radius: 2px;
-   }
+    width: 95%;
+    height: 25px;
+    padding-left: 5px;
+    background: #F5F5DC;
+    font-family: volkhov, sans-serif;
+    color: #3a3a3a;
+}
 
    .text-input:hover {
     border-color: #3a3a3a;
-   }
+}
 
    .send {
+    display: block;
     margin-top: 20px;
     border-radius: 2px;
     padding: 18px 30px;
-    text-align: center;
-    font-family: volkhov, sans-serif;
-    font-size: 150%;
-    text-transform: uppercase;
     background-color: #E96E14;
+    text-align: center;
+    font-size: 150%;
+    font-family: volkhov, sans-serif;
+    text-transform: uppercase;
     color: #3a3a3a;
-    display: block;
-   }
+}
 
    .send:hover {
     background-color: #fafafa;
     color: #3a3a3a;
-   }
+}
 
    /* Media queries */
 
 /* For larger screens size minimum 1200px wide and down */
 @media screen and (max-width: 1200px) {
     body {
-        max-width: 60%;
         margin-left: 20%;
         margin-right: 20%;
+        max-width: 60%;
     }
 }
 
@@ -376,70 +378,70 @@ img {
 @media screen and (max-width: 1200px) {
     
     #hero-image {
-        width: 65%;
         margin: 0 auto;
+        width: 100%;
     }
     
     #history {
+        margin: 0 auto;
         width: 65%;
         height: 1400px;
-        margin: 0 auto;
     }
 
     #what-to-see {
-        padding: 30px 0;
         margin: 0;
+        padding: 30px 0;
     }
 
     #left-history, #right-history {
-        width: 100%;
         float: left;
+        width: 100%;
         padding: 0;
     }
 
     #forum, #river-port {
-        background-color: #fafafa;
-        width: 100%;
         float: left;
+        width: 100%;
         padding: 0;
+        background-color: #fafafa;
     }
 
     #market {
-        background-color: #fafafa;
+        float: left;
         clear: both;
         width: 100%;
-        float: left;
         padding: 0;
+        background-color: #fafafa;
     }
 
     #visitor-information {
+        margin: 0 auto;
         width: 65%;
         height: 1700px;
-        margin: 0 auto;
     }
 
     #left-visit, #right-visit {
-        width: 100%;
         float: left;
+        width: 100%;
         padding: 0;
     }
 
     #center-visit {
+        float: left;
         clear: both;
         width: 100%;
-        float: left;
         padding: 0;
     }
 
     #contact {
+        margin: 0 auto;
         width: 100%;
         height: 1100px;
-        margin: 0 auto;
     }
 
     #left-contact, #right-contact {
-        width: 100%;
         float: left;
+        width: 100%;
         padding: 0;
     }
 
@@ -449,62 +451,62 @@ img {
 @media screen and (max-width: 950px) {
 
     h2, h3 {
-        text-align: center;
         margin-top: 10px;
         margin-bottom: 18px;
         font-size: 110%;
+        text-align: center;
     }
 
     #menu {
-        clear: left;
         float: left;
+        clear: left;
         margin-left: 30px;
         margin-bottom: 20px;
-        line-height: 25px;
         max-width: 950px;
+        line-height: 25px;
     }
 
     #history {
+        margin: 0 auto;
         width: 100%;
         height: 1200px;
-        margin: 0 auto;
     }
 
     #left-history, #right-history {
-        width: 100%;
         float: left;
         margin: 0 auto;
+        width: 100%;
     }
 
     #hero-image {
-        clear:both;
-        width: 90%;
+        clear: both;
         margin: 0 auto;
+        width: 90%;
     }
 
     #what-to-see {
         clear: both;
-        width: 100%;
-        height: 1350px;
         margin: 0 auto;
+        width: 100%;
+        height: 1350px;   
     }
 
     #visitor-information {
-        width: 100%;
-        height: 1750px;
         margin: 0 auto;
+        width: 100%;
+        height: 1750px;  
     }
 
     #left-visit, #right-visit {
-        width: 100%;
         float: left;
         margin: 0 auto;
+        width: 100%;
     }
 
     #center-visit {
         clear: both;
-        width: 100%;
         margin: 0 auto;
+        width: 100%;
     }
 
     .what-to-see {
@@ -512,9 +514,9 @@ img {
     }
 
     .social-media {
-        width: 160%;
         float: left;
         margin: 0 auto;
+        width: 160%;
     }
 
 }
@@ -540,8 +542,8 @@ img {
     }
 
     .social-media {
-        max-width: 100%;
         margin-left: 0;
+        max-width: 100%;
     }
 }
 
