@@ -17,9 +17,10 @@ body {
 h1, h2 {
     padding-top: 10px;
     padding-bottom: 18px;
+    line-height: 1em;
+    letter-spacing: 4px;
     font-family: volkhov, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
     color: #E96E14;
 }
 
@@ -103,7 +104,6 @@ h3 {
     text-align: center;
 }
 
-
 .left-history {
     clear: both;
     margin-left: 20px;
@@ -133,7 +133,7 @@ h3 {
 
 #what-to-see {
     clear: both;
-    height: 600px;
+    height: 560px;
 }
 
 #what-to-see p {
@@ -187,13 +187,14 @@ h3 {
 
 img {
     border-radius: 8px;
+    padding: 10px 10px;
 }
 
   /* footer */
 
   footer {
     border-top: 1px solid #3a3a3a;
-    height: 160px;
+    height: 100px;
 }
 
   .social-media {
@@ -215,12 +216,11 @@ img {
 
   #visitor-information {
     clear: both;
-    height: 650px;
+    height: 680px;
 }
 
   #visitor-information p {
-    margin-top: 10px;
-    margin-bottom: 18px;
+    padding: 10px;
 }
 
   #left-visit {
@@ -279,7 +279,7 @@ img {
    #contact {
     clear: both;
     background-image: url('..//images/collumns_600x600.jpg');
-    height: 560px;
+    height: 570px;
 }
 
    #contact p {
@@ -290,6 +290,7 @@ img {
    #left-contact {
     float: left;
     width: 33%;
+    height: 560px;
     padding-top: 10px;
     padding-left: 10px;
 }
@@ -297,6 +298,7 @@ img {
    #right-contact {
     float: right;
     width: 33%;
+    height: 560px;
     padding-top: 10px;
     text-align: center;
 }
@@ -365,12 +367,12 @@ img {
 
    /* Media queries */
 
-/* For larger screens size minimum 1200px wide and down */
-@media screen and (max-width: 1200px) {
+/* For larger screens size minimum from 1500px wide and down */
+@media screen and (min-width: 1500px) {
     body {
-        margin-left: 20%;
-        margin-right: 20%;
-        max-width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 90%;
     }
 }
 
@@ -378,6 +380,7 @@ img {
 @media screen and (max-width: 1200px) {
     
     #hero-image {
+        clear: both;
         margin: 0 auto;
         width: 100%;
     }
@@ -521,8 +524,8 @@ img {
 
 }
 
-/* For small screen sizes below 800px width */
-@media screen and (max-width: 800px) {
+/* For small screen sizes below 610px width */
+@media screen and (max-width: 610px) {
     
     img {
         width: 100%;
@@ -534,8 +537,8 @@ img {
 
 }
 
-/* For small screen sizes below 320px width */
-@media screen and (max-width: 320px) {
+/* For small screen sizes below 370px width */
+@media screen and (max-width: 370px) {
 
     #menu {
         margin-left: 0;
