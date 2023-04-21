@@ -191,7 +191,7 @@ The form uses the elements - First Name, Last Name, Email Address, Message, and 
 
 The fields are all required to have text entered in the correct format. 
 
-The send message button is styled to encourage the user to submit a message. The hover pseudo class reverts the color from # to white to show that the button is active to the user. 
+The send message button is styled to encourage the user to submit a message. The hover pseudo class reverts the color from to white ` #fafafa ` to show that the button is active to the user. 
 
 The Form connects to the Code Institute Form test site.
 
@@ -267,7 +267,7 @@ Social media links in footer link correctly to the relevant external site - [x]
 
 Content is responsive in smaller and larger screen sizes - []
 
-Message Form correctly can obtain the correct format and is requires an input - [x]
+Message Form correctly can obtain the correct format and requires an input - [x]
 
 __Further testing__
 
