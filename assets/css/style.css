@@ -248,14 +248,14 @@ img {
 }
 
   .left-visit {
-    margin-left: 2px;
+    margin-left: 4px;
     background-color: rgb(152, 207, 246, 0.5);
     line-height: 20px;
     text-align: center;
 }
 
   .right-visit {
-    margin-left: 2px;
+    margin-right: 4px;
     background-color: rgb(152, 207, 246, 0.5);
     line-height: 20px;
     text-align: center;
@@ -424,21 +424,8 @@ img {
 
     #visitor-information {
         margin: 0 auto;
-        width: 65%;
-        height: 1700px;
-    }
-
-    #left-visit, #right-visit {
-        float: left;
         width: 100%;
-        padding: 0;
-    }
-
-    #center-visit {
-        float: left;
-        clear: both;
-        width: 100%;
-        padding: 0;
+        height: 680px;
     }
 
     #contact {
