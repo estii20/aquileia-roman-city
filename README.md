@@ -8,6 +8,8 @@ A website to attract and inform visitors of the historic Roman UNESCO site of Aq
 
 [Website Mock-up](https://ui.dev/amiresponsive?url=https://estii20.github.io/aquileia-roman-city/)
 
+![Aquileia Roman City](assets/images/responsive-mock-up.png "Am I Responsive Mockup of Aquileia Roman City")
+
 ## Table of contents
 
 1.  [UX Design](#ux-design)
@@ -265,7 +267,7 @@ All external links open in correct page in a new tab/window - [x]
 
 Social media links in footer link correctly to the relevant external site - [x]
 
-Content is responsive in smaller and larger screen sizes - []
+Content is responsive in smaller and larger screen sizes - [x]
 
 Message Form correctly can obtain the correct format and requires an input - [x]
 
@@ -287,13 +289,13 @@ Media query for large screens added so that the site floats center with white sp
 
 Safari browser used to test the contact form in case of variability to the design.
 
-Background color removed from What to see section as it was too distracting on smaller screens. Background color changes to white on small screens to enable users to read the content.
+Hero image changes depending on screen size.
 
 Font awesome styling amended using CSS only.
 
 ## Unfixed Bugs
 
-Add here info
+None
 
 __Validators__
 

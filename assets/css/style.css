@@ -379,13 +379,13 @@ img {
         height: 690px;
     }
 
+    #left-visit, #right-visit {
+        height: 552px;
+    }
+
     #left-visit img, #center-visit img {
         margin: 10px;
         border-radius: 8px;
-    }
-
-    #left-visit, #right-visit {
-        height: 552px;
     }
 
 }
@@ -505,7 +505,7 @@ img {
     #menu {
         float: left;
         clear: left;
-        margin-left: 30px;
+        margin-left: 10px;
         margin-bottom: 20px;
         max-width: 950px;
         line-height: 25px;
@@ -620,7 +620,8 @@ img {
     }
 
     #menu li {
-        font-size: 18px;
+        margin-left: 10px;
+        font-size: 15px;
     }
 
     #left-history {
