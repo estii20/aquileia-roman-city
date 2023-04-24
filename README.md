@@ -70,13 +70,13 @@ __Skeleton__
 
 Webpage and mobile version made using [Balsamiq](https://balsamiq.cloud/skgv95c/pk5rjyb).
 
-![Balsamiq design of index.html](assets/images/Screenshot%202023-04-17%20155810.png "Balsamiq Design for index.html")
+![Balsamiq design of index.html](assets/images/readme-images/index.png "Balsamiq Design for index.html")
 
-![Balsamiq mobile design of index.html](assets/images/mobile-image.png "Balsamiq Design for mobile version for index.html")
+![Balsamiq mobile design of index.html](assets/images/readme-images/mobile-image.png "Balsamiq Design for mobile version for index.html")
 
-![Balsamiq mobile design of visit.html](assets/images/mobile-visitor-info.png "Balsamiq Design for mobile version for visit.html")
+![Balsamiq mobile design of visit.html](assets/images/readme-images/mobile-visitor-info.png "Balsamiq Design for mobile version for visit.html")
 
-![Balsamiq mobile design of contact.html](assets/images/mobile-contact.png "Balsamiq Design for mobile version for contact.html")
+![Balsamiq mobile design of contact.html](assets/images/readme-images/mobile-contact.png "Balsamiq Design for mobile version for contact.html")
 
 __Surface__
 
@@ -85,7 +85,7 @@ To create a clear visual guide to the user to promote the history of the site.
 __Background Color__
 
 Header and Footer both use ` #e96e14 `, a golden orange color to complement the Italian imagery palette selected from the hero image aided by the [eyedropper tool Chrome extension](https://chrome.google.com/webstore/category/extensions).
-Body uses a background color white ` #fafafa ` to contrast well with the charcoal font-color ` #3a3a3a `. Used the color light blue ` rgb(222, 233, 238, 0.9) ` with opacity to draw the reader's attention to the content without distracting from the information. The color was chosen for the background to compliment the colors of the sky in the images used.
+Body uses a background color white ` #fafafa ` to contrast well with the charcoal font-color ` #3a3a3a `. Used the color light blue ` rgb(152, 207, 246, 0.5) ` with opacity to draw the reader's attention to the content without distracting from the information. The color was chosen for the background to compliment the colors of the sky in the images used.
 
 [Colorspace](https://mycolor.space/) used to check the palette works together. 
 
@@ -121,25 +121,25 @@ __Homepage__
 - What to see section, showing The Forum, The Port and The Market
 - Footer with associated social media links
 
-![Logo and Navigation Links](assets/images/logo.png "Logo and Navigation Links")
+![Logo and Navigation Links](assets/images/readme-images/logo.png "Logo and Navigation Links")
 
 The heading section has a Logo with font awesome museum image and a Navigation bar with 3 links. The use of CSS Float enables the navigation bar to appear in the correct order.
 
 __Hero Image__
 
-![Hero Image](assets/images/hero.png "Hero Image of Roman Aquileia")
+![Hero Image](assets/images/readme-images/hero.png "Hero Image of Roman Aquileia")
 
 Created in canva and features the main image of Aquileia as you enter the ruins. The columns are particularly recognised at the site.
 
 __Historical information and Timeline with key dates__
 
-![History and Timeline](assets/images/history-timeline.png "Roman History section with Aquileia facts")
+![History and Timeline](assets/images/readme-images/history-timeline.png "Roman History section with Aquileia facts")
 
 The History section details the key information about the Roman site. To the right of the history section is a Timeline created using font awesome arrows to give the effect of a transfer between dates and key points about the site's history.
 
 __What to see section__
 
-![The Forum, The Port, The Market](assets/images/visit.png "Roman Aquileia Forum, Market and Port")
+![The Forum, The Port, The Market](assets/images/readme-images/visit.png "Roman Aquileia Forum, Market and Port")
 
 Features The Forum, The Market and The River Port.
 Each features an image of what to see at each area of the site.
@@ -148,7 +148,7 @@ All images have alt text labels to help with the accessibility of the website.
 
 __Footer with links to the Social Media platforms__
 
-![Footer with links to the Social Media platforms](assets/images/footer.png "Footer with links to the Social Media platforms")
+![Footer with links to the Social Media platforms](assets/images/readme-images/footer.png "Footer with links to the Social Media platforms")
 
 Links to the main social media are used and are centered within the footer.
 The links are colored to compliment the Logo and headers.
@@ -167,7 +167,7 @@ __Visit page__
 
 __Visit section__
 
-![Visitor Information](assets/images/visitor-information.png "Visitor Information")
+![Visitor Information](assets/images/readme-images/visitor-information.png "Visitor Information")
 
 This section helps the user plan a visit to Aquileia.
 
@@ -187,7 +187,7 @@ __Contact page__
 - Contact form for further information
 - Footer with links to the Social Media platforms
 
-![Contact Form and Information](assets/images/contact.png "Contact Form and Information")
+![Contact Form and Information](assets/images/readme-images/contact.png "Contact Form and Information")
 
 The form uses the elements - First Name, Last Name, Email Address, Message, and submit message button. 
 
@@ -261,15 +261,13 @@ Semantic html to define the different sections namely the header, sections and f
 
 ## Testing
 
-The Navigation Links respond to the correct page - [x]
-
-All external links open in correct page in a new tab/window - [x]
-
-Social media links in footer link correctly to the relevant external site - [x]
-
-Content is responsive in smaller and larger screen sizes - [x]
-
-Message Form correctly can obtain the correct format and requires an input - [x]
+| Test | Outome |
+| --- | --- |
+| The Navigation Links respond to the correct page | Passed |
+| All external links open in correct page in a new tab/window | Passed |
+| Social media links in footer link correctly to the relevant external site | Passed |
+| Content is responsive in smaller and larger screen sizes | Passed |
+| Message Form correctly can obtain the correct format and requires an input | Passed |
 
 __Further testing__
 
@@ -289,7 +287,7 @@ Media query for large screens added so that the site floats center with white sp
 
 Safari browser used to test the contact form in case of variability to the design.
 
-Hero image changes depending on screen size.
+Hero image appears depending on screen size. Small screens no image is displayed and a background color of light blue ` rgb(152, 207, 246, 0.5) ` is displayed to add color to the small screen.
 
 Font awesome styling amended using CSS only.
 
@@ -308,57 +306,57 @@ Homepage, Visit page, Contact page and CSS all passed without error using W3C HT
 
 Screenshot of W3C Validator test, all pages passed [x]
 
-![Aquileia Roman City Website](assets/images/visit-w3c.png "Aquileia Roman City wesbite validator test")
+![Aquileia Roman City Website](assets/images/readme-images/visit-w3c.png "Aquileia Roman City wesbite validator test")
 
-![CSS](assets/images/css-w3c.png "CSS for Aquileia Roman City website validator test")
+![CSS](assets/images/readme-images/css-w3c.png "CSS for Aquileia Roman City website validator test")
 
 Screenshot for Google Lighthouse test, all pages passed [x]
 
-![Homepage](assets/images/homepage-lighthouse.png "Aquileia Roamn City Visitor Information lighthouse test")
+![Homepage](assets/images/readme-images/homepage-lighthouse.png "Aquileia Roamn City Visitor Information lighthouse test")
 
-![Visit](assets/images/visit-lighthouse.png "Aquileia Roman City Contact Form and Information lighthouse test")
+![Visit](assets/images/readme-images/visit-lighthouse.png "Aquileia Roman City Contact Form and Information lighthouse test")
 
-![Contact](assets/images/contact-lighthouse.png "CSS for Aquileia Roman City website lighthouse test")
+![Contact](assets/images/readme-images/contact-lighthouse.png "CSS for Aquileia Roman City website lighthouse test")
 
 ## Deployment 
 
 To access this project in GitHub;
 
-Firstly Log into [Github](https://github.com/).
+1.  Firstly Log into [Github](https://github.com/).
 
-Select repository [estii20/aquileia_roman_city](https://github.com/estii20/aquileia-roman-city).
+2.  Select repository [estii20/aquileia_roman_city](https://github.com/estii20/aquileia-roman-city).
 
-Select settings from menu.
+3.  Select settings from menu.
 
-Select Pages from left menu bar.
+4.  Select Pages from left menu bar.
 
-Scroll and select Master branch from the drop down menu to deploy the website.
+5.  Scroll and select Master branch from the drop down menu to deploy the website.
 
-Retrieve the automatically generated link from the GitHub pages section.
+6.  Retrieve the automatically generated link from the GitHub pages section.
 
-Running the project locally;
+__Running the project locally;__
 
-To create a clone of this project follow the instructions below;
+1.  To create a clone of this project follow the instructions below;
 
-Create a GitPod account [Gitpod](https://gitpod.io/login/).
+2.  Create a GitPod account [Gitpod](https://gitpod.io/login/).
 
-Open the Chrome browser.
+3.  Open the Chrome browser.
 
-Click to the top of the Chrome navigation bar and enable the extension Gitpod Browser Extension for Chrome. 
+4.  Click to the top of the Chrome navigation bar and enable the extension Gitpod Browser Extension for Chrome. 
 
-Link it.
+5.  Link it.
 
-Restart the browser when prompted to do so.
+6.  Restart the browser when prompted to do so.
 
-Log into GitPod with your account username and password.
+7.  Log into GitPod with your account username and password.
 
-Select the project in GitHub repositories.
+8.  Select the project in GitHub repositories.
 
-Click on the green “Gitpod” button to the top right of the page.
+9.  Click on the green “Gitpod” button to the top right of the page.
 
-A new gitpod workspace opens.
+10. A new gitpod workspace opens.
 
-It is now possible to work locally on the project.
+11. It is now possible to work locally on the project.
 
 ## Credits
 
