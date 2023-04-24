@@ -8,7 +8,7 @@ A website to attract and inform visitors of the historic Roman UNESCO site of Aq
 
 [Website Mock-up](https://ui.dev/amiresponsive?url=https://estii20.github.io/aquileia-roman-city/)
 
-![Aquileia Roman City](assets/images/responsive-mock-up.png "Am I Responsive Mockup of Aquileia Roman City")
+![Aquileia Roman City](assets/images/readme-images/responsive-mock-up.png "Am I Responsive Mockup of Aquileia Roman City")
 
 ## Table of contents
 
