@@ -1,4 +1,4 @@
-# Aquileia Roman Port City
+# Aquileia Roman City
 
 A website to attract and inform visitors of the historic Roman UNESCO site of Aquileia, Fruili-Venezia Guilia, Italy.
 
@@ -293,6 +293,8 @@ Hero image changes depending on screen size.
 
 Font awesome styling amended using CSS only.
 
+CSS to improve form accessibilty score on lighthouse. Improved the size of the submit button and font-size for the input data. 
+
 ## Unfixed Bugs
 
 None
@@ -323,10 +325,15 @@ Screenshot for Google Lighthouse test, all pages passed [x]
 To access this project in GitHub;
 
 Firstly Log into [Github](https://github.com/).
+
 Select repository [estii20/aquileia_roman_city](https://github.com/estii20/aquileia-roman-city).
+
 Select settings from menu.
+
 Select Pages from left menu bar.
+
 Scroll and select Master branch from the drop down menu to deploy the website.
+
 Retrieve the automatically generated link from the GitHub pages section.
 
 Running the project locally;
@@ -334,13 +341,23 @@ Running the project locally;
 To create a clone of this project follow the instructions below;
 
 Create a GitPod account [Gitpod](https://gitpod.io/login/).
+
 Open the Chrome browser.
-Click to the top of the Chrome navigation bar and enable the extension Gitpod Browser Extension for Chrome. Link it
+
+Click to the top of the Chrome navigation bar and enable the extension Gitpod Browser Extension for Chrome. 
+
+Link it.
+
 Restart the browser when prompted to do so.
+
 Log into GitPod with your account username and password.
+
 Select the project in GitHub repositories.
+
 Click on the green “Gitpod” button to the top right of the page.
+
 A new gitpod workspace opens.
+
 It is now possible to work locally on the project.
 
 ## Credits
