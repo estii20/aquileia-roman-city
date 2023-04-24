@@ -74,8 +74,8 @@ h3 {
 /* hero image */
 
 #hero-image {
-    height: 650px;
     width: 100%;
+    height: 650px;
     background: url('../images/hero-image.png') no-repeat center center;
 }
 
@@ -383,8 +383,8 @@ img {
         height: 552px;
     }
 
-    #left-visit img, #center-visit img {
-        margin: 10px;
+    #left-visit img, #right-visit img, #center-visit img {
+        margin-top: 20px;
         border-radius: 8px;
     }
 
@@ -396,8 +396,8 @@ img {
     #hero-image {
         clear: both;
         margin: 0 auto;
-        height: 525px;
         width: 100%;
+        height: 525px;
     }
     
     #history {
@@ -462,8 +462,12 @@ img {
     }
 
     #center-visit img {
-        margin: 4px;
+        margin-top: 20px;
         border-radius: 8px;
+    }
+
+    #left-visit img {
+        margin-top: 20px;
     }
 
     #contact {
@@ -514,7 +518,7 @@ img {
     #hero-image {
         clear: both;
         margin: 0 auto;
-        width: 90%;
+        width: 70vh;
     }
 
     #history {
@@ -538,6 +542,10 @@ img {
         margin: 0 auto;
         width: 100%;
         height: 450px;   
+    }
+
+    .what-to-see {
+        text-align: center;
     }
 
     #forum {
@@ -596,13 +604,26 @@ img {
         padding-bottom: 17px;
     }
 
-    .what-to-see {
-        text-align: center;
+    #right-visit img {
+        margin-top: 25px;
+        margin-left: 0;
+    }
+
+    #left-visit img {
+        margin-left: 0;
+    }
+
+    #center-visit img {
+        margin-top: 25px;
     }
 
     .social-media {
         margin: 0 auto;
         width: 100%;
+    }
+
+    .send {
+        font-size: 90%;
     }
 
 }
@@ -616,7 +637,10 @@ img {
     }
 
     #hero-image {
-        display: none;
+        clear: both;
+        margin: 0 auto;
+        width: 1600px;
+        height: 300px;
     }
 
     #menu li {
