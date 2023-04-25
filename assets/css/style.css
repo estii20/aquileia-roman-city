@@ -434,27 +434,22 @@ img {
     }
 
     #what-to-see {
-        clear: both;
-        margin: 0;
         height: 500px;
         padding: 30px 0;
     }
 
-    #forum {
-        float: left;
-        width: 33%;
+    #forum, #river-port {
+        height: 450px;
         padding: 0;
     }
 
-    #river-port {
-        float: right;
-        width: 33%;
-        padding: 0;
+    #forum p {
+        margin-bottom: 0;
     }
 
     #market {
         margin: 0 auto;
-        width: 33%;
+        height: 450px;
         padding: 0;
     }
 
@@ -469,34 +464,29 @@ img {
     }
 
     #right-visit img {
-        margin: 20px;
-        border-radius: 8px;
+        margin: 30px;
     }
 
     #center-visit img {
-        margin-top: 20px;
-        border-radius: 8px;
+        margin: 55px;
     }
 
     #left-visit img {
-        margin-top: 20px;
+        margin: 20px;
     }
 
     #contact {
         margin: 0 auto;
-        width: 100%;
         height: 600px;
     }
 
     #left-contact {
-        float: left;
         width: 45%;
         height: 600px;
         padding: 0;
     }
 
     #right-contact {
-        float: right;
         width: 40%;
         height: 600px;
         padding: 0;
@@ -523,7 +513,6 @@ img {
         margin-left: 40px;
         margin-bottom: 20px;
         max-width: 950px;
-        width: 100%;
         line-height: 25px;
     }
 
@@ -659,6 +648,11 @@ img {
         display: none;
     }
 
+    #menu {
+        margin-left: 40px;
+        width: 85%;
+    }
+
     #river-port p {
         margin: 12px;
     }
@@ -676,14 +670,26 @@ img {
         height: 100px;
     }
 
-    #menu li {
+    h2 {
+        font-size: 80%;
+    }
+
+    #logo {
         margin-left: 10px;
+        font-size: 20px;
+    }
+
+    #menu {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 85%;
         font-size: 15px;
     }
 
     #left-history {
-        width: 90%;
-        margin-left: 20px;
+        margin: 10px 10px  10px 10px;
+        width: 85%;
+        height: 1400px;
     }
 
     #right-history {
@@ -691,6 +697,7 @@ img {
     }
 
     #what-to-see {
+        width: 85%;
         height: 900px;
     }
 
@@ -706,6 +713,7 @@ img {
     }
 
     #visitor-information {
+        width: 85%;
         height: 1650px;
     }
 
