@@ -234,7 +234,7 @@ __Canva__
 __Image Resizer__
 
 [Simple Image Resizer](https://www.simpleimageresizer.com/upload)
-Images resized to 600 px 600 px so that the images could be curved at the corner to soften them.
+Images resized to 300 px 300 px so that the images could be curved at the corner to soften them.
 
 __Balsamiq__
 
@@ -292,6 +292,8 @@ Hero image appears depending on screen size. Small screens no image is displayed
 Font awesome styling amended using CSS only.
 
 CSS to improve form accessibilty score on lighthouse. Improved the size of the submit button and font-size for the input data. 
+
+Removed text input for textarea as did not pass W3C test first time.
 
 ## Unfixed Bugs
 
@@ -360,20 +362,32 @@ __Running the project locally;__
 
 ## Credits
 
-Map image taken from [Informaggiovani-Italia Aquileia Map](https://www.informagiovani-italia.com/map_of_aquileia.htm)
+__Content__
 
-Content information researched using
-[Wikapedia Aquileia](https://en.wikipedia.org/wiki/Aquileia)
+
+Content information researched at
+[Wikipedia Aquileia](https://en.wikipedia.org/wiki/Aquileia)
+
+Content information researched at [Google Arts and Culture Archeological area of Aquileia](https://artsandculture.google.com/story/archaeological-area-and-the-patriarchal-basilica-of-aquileia-italy-unesco/QAWxLyfz6n4tIw?hl=en)
+
+Content information researched at [Google for local restaurants nearby to Aquileia](https://www.google.com/search?q=aquileia+restaurants+nearby&oq=aquileia+restaurants+nearby&aqs=chrome..69i57j0i546l4.7781j0j9&sourceid=chrome&ie=UTF-8)
+
+Content information researched at
+[Wikipedia Aquileia](https://en.wikipedia.org/wiki/Aquileia)
+
+Content information researched at [Google Arts and Culture Archeological area of Aquileia](https://artsandculture.google.com/story/archaeological-area-and-the-patriarchal-basilica-of-aquileia-italy-unesco/QAWxLyfz6n4tIw?hl=en)
+
+Content information researched at [Google for local restaurants nearby to Aquileia](https://www.google.com/search?q=aquileia+restaurants+nearby&oq=aquileia+restaurants+nearby&aqs=chrome..69i57j0i546l4.7781j0j9&sourceid=chrome&ie=UTF-8)
 
 Footer with Social Media icons from [CI Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/e6d4cda2bc08458ba94d2092be9bad3a/)
 
-Content information researched using [Google Arts and Culture Archeological area of Aquileia](https://artsandculture.google.com/story/archaeological-area-and-the-patriarchal-basilica-of-aquileia-italy-unesco/QAWxLyfz6n4tIw?hl=en)
+Icons were taken from [Font Awesome](https://fontawesome.com/)
 
-Content information researched using [Google for local restaurants nearby to Aquileia](https://www.google.com/search?q=aquileia+restaurants+nearby&oq=aquileia+restaurants+nearby&aqs=chrome..69i57j0i546l4.7781j0j9&sourceid=chrome&ie=UTF-8)
+README.md was adapted from [Steve-doc README.md](https://github.com/steve-doc/40-foot) 
 
-README.md was adapted from [Anna Greaves README.md](https://github.com/AJGreaves/portrait-artist/blob/master/README.md) 
+__Media__
 
-Content information researched using [Visit World Heritage Aquileia](https://visitworldheritage.com/en/eu/archaeological-area-and-the-patriarchal-basilica-of-aquileia-italy/f903e5e3-90b8-43e1-8202-b09815a9da9a)
+Map image taken from [Informaggiovani-Italia Aquileia Map](https://www.informagiovani-italia.com/map_of_aquileia.htm)
 
 ## Acknowledgements
 
