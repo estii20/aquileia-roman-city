@@ -96,7 +96,7 @@ The body text used the ` #3a3a3a ` to enable easy viewing for the reader against
 
 __Border Color__
 
-The border color charcoal ` #3a3a3 ` used to compliment the body font color.
+The border color charcoal ` #3a3a3a ` used to compliment the body font color.
 
 __Form Color__
 
@@ -201,7 +201,7 @@ Information on alternative methods to contact Aquileia by email and phone are li
 
 ## Future Features
 
-It would be helpful in the future to link the map to google maps using javascript.
+It would be helpful in the future to link the map to google maps using Javascript.
 Further languages such as German and Spanish could be added to the site for non-English speakers.
 The Visit section could be updated to feature sponsored links to the restaurants listed. Therefore raising user experience and also revenue for the website.
 
@@ -304,13 +304,13 @@ Homepage, Visit page, Contact page and CSS all passed without error using W3C HT
 [W3C HTML Validator](https://validator.w3.org/) and
 [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-Screenshot of W3C Validator test, all pages passed [x]
+Screenshot of W3C Validator test, all pages passed 
 
 ![Aquileia Roman City Website](assets/images/readme-images/visit-w3c.png "Aquileia Roman City wesbite validator test")
 
 ![CSS](assets/images/readme-images/css-w3c.png "CSS for Aquileia Roman City website validator test")
 
-Screenshot for Google Lighthouse test, all pages passed [x]
+Screenshot for Google Lighthouse test, all pages passed
 
 ![Homepage](assets/images/readme-images/homepage-lighthouse.png "Aquileia Roamn City Visitor Information lighthouse test")
 
@@ -363,17 +363,17 @@ __Running the project locally;__
 Map image taken from [Informaggiovani-Italia Aquileia Map](https://www.informagiovani-italia.com/map_of_aquileia.htm)
 
 Content information researched using
-[Wikapedia](https://en.wikipedia.org/wiki/Aquileia)
+[Wikapedia Aquileia](https://en.wikipedia.org/wiki/Aquileia)
 
 Footer with Social Media icons from [CI Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/e6d4cda2bc08458ba94d2092be9bad3a/)
 
-[Google Arts and Culture](https://artsandculture.google.com/story/archaeological-area-and-the-patriarchal-basilica-of-aquileia-italy-unesco/QAWxLyfz6n4tIw?hl=en)
+Content information researched using [Google Arts and Culture Archeological area of Aquileia](https://artsandculture.google.com/story/archaeological-area-and-the-patriarchal-basilica-of-aquileia-italy-unesco/QAWxLyfz6n4tIw?hl=en)
 
-[Google for local restaurants](https://www.google.com/search?q=aquileia+restaurants+nearby&oq=aquileia+restaurants+nearby&aqs=chrome..69i57j0i546l4.7781j0j9&sourceid=chrome&ie=UTF-8)
+Content information researched using [Google for local restaurants nearby to Aquileia](https://www.google.com/search?q=aquileia+restaurants+nearby&oq=aquileia+restaurants+nearby&aqs=chrome..69i57j0i546l4.7781j0j9&sourceid=chrome&ie=UTF-8)
 
 README.md was adapted from [Anna Greaves README.md](https://github.com/AJGreaves/portrait-artist/blob/master/README.md) 
 
-[Visit World Heritage](https://visitworldheritage.com/en/eu/archaeological-area-and-the-patriarchal-basilica-of-aquileia-italy/f903e5e3-90b8-43e1-8202-b09815a9da9a)
+Content information researched using [Visit World Heritage Aquileia](https://visitworldheritage.com/en/eu/archaeological-area-and-the-patriarchal-basilica-of-aquileia-italy/f903e5e3-90b8-43e1-8202-b09815a9da9a)
 
 ## Acknowledgements
 
