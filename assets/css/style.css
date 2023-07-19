@@ -37,7 +37,7 @@ h3 {
 
 #logo {
     float: left;
-    margin-left: 60px;
+    margin-left: 40px;
     font-size: 280%;
 }
 
@@ -49,7 +49,6 @@ h3 {
     display: flex;
     font-size: 150%;
     letter-spacing: 4px;
-    margin-right: 20px;
 }
 
 #menu, #logo {
@@ -59,7 +58,7 @@ h3 {
 #menu li {
     float: right;
     list-style: none;
-    margin-right: 40px;
+    margin-right: 80px;
 }
 
 #menu a {
@@ -75,13 +74,12 @@ h3 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+
 /* hero image */
 
 #hero-image {
     max-width: 100vw;
     height: 650px;
-    max-height: auto;
-    position: relative;
     background: url('../images/hero-image.png') no-repeat center center;
 }
 
@@ -184,6 +182,7 @@ img {
 .forum {
     margin-left: 10px;
     background-color: antiquewhite;
+    border-radius: 10px;
     height: auto;
     line-height: 20px;
     text-align: center;
@@ -197,6 +196,7 @@ img {
 .river-port {
     margin-left: 2px;
     margin-right: 10px;
+    border-radius: 10px;
     background-color: antiquewhite;
     height: auto;
     line-height: 20px;
@@ -211,6 +211,7 @@ img {
 .market {
     line-height: 20px;
     text-align: center;
+    border-radius: 10px;
     background-color: antiquewhite;
     height: auto;
 }
@@ -224,6 +225,10 @@ img {
     padding-top: 10px;
     padding-bottom: 18px;
     text-align: center;
+}
+
+#top {
+    font-size: 1em;
 }
 
   /* footer */
@@ -252,47 +257,63 @@ img {
 
   #visitor-information {
     clear: both;
-    height: 680px;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    height: auto;
 }
 
   #visitor-information p {
     padding: 10px;
+    font-size: 1.5vw;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+  #visit {
+    padding: 10px;
+    text-align: center;
 }
 
   #left-visit {
     float: left;
-    width: 33%;
+    max-width: 30%;
+    height: auto;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: rgb(152, 207, 246, 0.5);
 }
 
   #right-visit {
     float: right;
-    width: 33%;
+    max-width: 30%;
+    height: auto;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: rgb(152, 207, 246, 0.5);
 }
 
   #center-visit {
     margin: 0 auto;
-    width: 33%;
+    max-width: 30%;
+    height: auto;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: rgb(152, 207, 246, 0.5);
 }
 
   .left-visit {
-    margin-left: 4px;
-    background-color: rgb(152, 207, 246, 0.5);
+    margin-left: 10px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    height: auto;
     line-height: 20px;
     text-align: center;
 }
 
   .right-visit {
-    margin-right: 4px;
-    background-color: rgb(152, 207, 246, 0.5);
+    margin-left: 2px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    height: auto;
     line-height: 20px;
     text-align: center;
 }
@@ -304,10 +325,11 @@ img {
 }
 
   .center-visit {
-    padding-top: 30px;
-    background-color: rgb(152, 207, 246, 0.5);
     line-height: 20px;
     text-align: center;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    height: auto;
 }
 
    /* contact information*/
