@@ -137,60 +137,88 @@ h3 {
 img {
     border-radius: 8px;
     margin: 5px;
+    width: 200px;
+    max-width: 90%;
+    height: auto;
 }
 
 #what-to-see {
     clear: both;
-    height: 560px;
+    height: auto;
 }
 
 #what-to-see p {
-    margin: 10px 10px 18px 18px;
+    padding: 20px;
+    font-size: 1.5vw;
+    line-height: 1.5;
 }
 
 #forum {
     float: left;
-    width: 33%;
+    max-width: 30%;
+    height: auto;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
 #river-port {
     float: right;
-    width: 33%;
+    max-width: 30%;
+    height: auto;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
 #market {
     margin: 0 auto;
-    width: 33%;
+    max-width: 30%;
+    height: auto;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
 .forum {
-    margin-left: 4px;
-    background-color: rgb(152, 207, 246, 0.5);
+    margin-left: 10px;
+    background-color: antiquewhite;
+    height: auto;
     line-height: 20px;
     text-align: center;
 }
 
+.forum h3 {
+    padding-top: 4px;
+    padding-bottom: 10px;
+}
+
 .river-port {
     margin-left: 2px;
-    margin-right: 2px;
-    background-color: rgb(152, 207, 246, 0.5);
+    margin-right: 10px;
+    background-color: antiquewhite;
+    height: auto;
     line-height: 20px;
     text-align: center;
+}
+
+.river-port h3 {
+    padding-top: 4px;
+    padding-bottom: 10px;
 }
 
 .market {
     line-height: 20px;
     text-align: center;
-    background-color: rgb(152, 207, 246, 0.5);
+    background-color: antiquewhite;
+    height: auto;
+}
+
+.market h3 {
+    padding-top: 4px;
+    padding-bottom: 10px;
 }
 
 .what-to-see {
+    padding-top: 10px;
+    padding-bottom: 18px;
     text-align: center;
 }
 
