@@ -275,6 +275,14 @@ img {
     text-align: center;
 }
 
+    #visit-us {
+        text-align: center;
+    }
+
+    #visit-us p {
+        text-align: center;
+    }
+
   #left-visit {
     float: left;
     max-width: 30%;
@@ -301,7 +309,6 @@ img {
 
   .left-visit {
     margin-left: 10px;
-    background-color: antiquewhite;
     border-radius: 10px;
     height: auto;
     line-height: 20px;
@@ -312,7 +319,6 @@ img {
     margin-left: 2px;
     margin-right: 10px;
     border-radius: 10px;
-    background-color: antiquewhite;
     height: auto;
     line-height: 20px;
     text-align: center;
@@ -328,7 +334,6 @@ img {
     line-height: 20px;
     text-align: center;
     border-radius: 10px;
-    background-color: antiquewhite;
     height: auto;
 }
 
