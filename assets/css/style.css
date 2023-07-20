@@ -352,94 +352,102 @@ footer {
 }
    /* contact information*/
 
-   #contact {
+#contact {
     clear: both;
     background-image: url('..//images/columns_600x600.jpg');
-    height: 570px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 100px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+    height: 100%;
 }
 
-   #contact p {
-    padding: 10px;  
+#contact p {
+    padding: 4px;
+    font-size: 1vw;
+    line-height: 0.5;
 }
 
-   #left-contact {
-    float: left;
-    width: 33%;
-    height: 560px;
-    padding-top: 10px;
-    padding-left: 10px;
-}
-
-   #right-contact {
-    float: right;
-    width: 33%;
-    height: 560px;
-    padding-top: 10px;
+#contact-form {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    clear: both;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: auto;
+    height: auto;
     text-align: center;
+    display: inline-block;
 }
 
-   .right-contact {
-    height: 550px;
+.contact {
     background-color: rgb(222, 233, 238, 0.9);
     line-height: 20px;
-    text-align: center;
+}
+
+#contact-us p {
+    font-size: 1.5vw;
 }
 
    /* Form */
 
-   #message {
-    height: 80px;
+label {
+    display: inline-block;
+    font-size: 1vw;
+    padding: 10px;
+}
+
+#message {
+    height: 100px;
    }
 
-   .left-contact {
-    clear: left;
-    height: 550px;
-    background-size: cover;
-    background-position: center;
-    background-color: rgb(222, 233, 238, 0.9);
+.contact-us {
+    padding: 10px;
+    text-align: center;
 }
 
-   .contact-us {
-    font-size: 150%;
-    text-align: left;
-}
-
-   .contact-form {
-    margin: 4px 10% 0 0;
-    max-width: 350px;
+.contact-form {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
     padding: 30px;
 }
 
-   .text-input {
-    margin: 5px 0 20px;
+.text-input {
     border: 1px solid #3a3a3a;
-    border-radius: 2px;
+    border-radius: 5px;
     width: 95%;
-    height: 25px;
-    padding-left: 5px;
+    height: 25%;
     background: #F5F5DC;
     font-family: volkhov, sans-serif;
     color: #3a3a3a;
+    font-size: 1vw;
 }
 
-   .text-input:hover {
+.text-input:hover {
     border-color: #3a3a3a;
 }
 
-   .send {
-    display: block;
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 18px 30px;
+.send {
+    display: inline-block;
+    margin-top: 4px;
+    border-radius: 8px;
+    padding: 10px;
     background-color: #E96E14;
     text-align: center;
-    font-size: 150%;
+    font-size: 1vw;
+    max-width: 25%;
+    height: 25%;
     font-family: volkhov, sans-serif;
     text-transform: uppercase;
     color: #3a3a3a;
 }
 
-   .send:hover {
+.send:hover {
     background-color: #fafafa;
     color: #3a3a3a;
 }

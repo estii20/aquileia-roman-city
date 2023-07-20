@@ -31,15 +31,9 @@
         </nav>
     </header>
         <section id="contact">
-            <div id="left-contact" class="left-contact">
+            <div id="contact-form" class="contact">
                 <form action="https://formdump.codeinstitute.net/" method="POST" class="contact-form">
                         <h2 class="contact-us"><i class="fa-solid fa-address-card"></i> Contact Us</h2>
-                        <hr>
-                        <p>
-                            <b>
-                            If you require any further information please contact us using the form below;
-                            </b>
-                        </p>
                         <label for="fname"><b>First Name</b></label>
                         <input class="text-input" id="fname" type="text" name="first_name" required>
                         <label for="lname"><b>Last Name</b></label>
@@ -47,21 +41,18 @@
                         <label for="email"><b>Email Address</b></label>
                         <input class="text-input" id="email" type="email" name="email_address" required>
                         <label for="message"><b>Message</b></label>
-                        <textarea class="text-input" id="message" name="message" rows="4" cols="50" required></textarea>
-                        <input class="send" type="submit" value="Send message">
+                        <textarea class="text-input" id="message" placeholder="Write your message here.." name="message" rows="4" cols="50" required></textarea>
+                        <input class="send" type="submit" value="Send">
                     </form>
-            </div>
-            <div id="right-contact" class="right-contact">
-                <p>
-                    <b>
-                    Alternatively for further information please contact us below;
-                    </b>
-                </p>
-                <h3><i class="fa-brands fa-whatsapp"></i> +39 6265980</h3>
-                <h3><i class="fa-regular fa-envelope"></i> info@aquileia.com</h3>
-                <h3><i class="fa-solid fa-location-dot"></i>Via Roma 2, 33051, Udine, Italy</h3>
-                <p>We are looking forward to hearing from you</p>
-                <img src="assets/images/roman-road_300x300.jpg" alt="Aquileia Roman road" width="300" height="300">
+                    <div class="contact-us">
+                    <p>
+                        Alternatively for further information please contact us below:
+                    </p>
+                    <i class="fa-brands fa-whatsapp"></i><p></p>+39 6265980</p>
+                    <i class="fa-regular fa-envelope"></i><p></p>info@aquileia.com</p>
+                    <i class="fa-solid fa-location-dot"></i><p></p>Via Roma 2, 33051, Udine, Italy</p>
+                    <p>We are looking forward to hearing from you!</p>
+                </div>
             </div>
         </section>
     <footer>
