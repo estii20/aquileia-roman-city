@@ -233,20 +233,20 @@ img {
 
   /* footer */
 
-  footer {
+footer {
     border-top: 1px solid #3a3a3a;
     height: 100px;
 }
 
-  .social-media {
+.social-media {
     text-align: center;
 }
 
-  .social-media > li {
+.social-media > li {
     display: inline;
 }
 
-  .social-media i {
+.social-media i {
     margin: 1%;
     padding: 5%;
     font-size: 200%;
@@ -255,7 +255,7 @@ img {
 
   /* visitor information*/
 
-  #visitor-information {
+#visitor-information {
     clear: both;
     max-width: 1200px;
     width: 100%;
@@ -263,27 +263,27 @@ img {
     height: auto;
 }
 
-  #visitor-information p {
+#visitor-information p {
     padding: 10px;
     font-size: 1.5vw;
     line-height: 1.5;
     text-align: justify;
 }
 
-  #visit {
+#visit {
     padding: 10px;
     text-align: center;
 }
 
-    #visit-us {
-        text-align: center;
-    }
+#visit-us {
+    text-align: center;
+}
 
-    #visit-us p {
-        text-align: center;
-    }
+#visit-us p {
+    text-align: center;
+}
 
-  #left-visit {
+#left-visit {
     float: left;
     max-width: 30%;
     height: auto;
@@ -291,7 +291,7 @@ img {
     padding-bottom: 30px;
 }
 
-  #right-visit {
+#right-visit {
     float: right;
     max-width: 30%;
     height: auto;
@@ -299,7 +299,7 @@ img {
     padding-bottom: 30px;
 }
 
-  #center-visit {
+#center-visit {
     margin: 0 auto;
     max-width: 30%;
     height: auto;
@@ -307,7 +307,8 @@ img {
     padding-bottom: 30px;
 }
 
-  .left-visit {
+
+.left-visit {
     margin-left: 10px;
     border-radius: 10px;
     height: auto;
@@ -315,7 +316,7 @@ img {
     text-align: center;
 }
 
-  .right-visit {
+.right-visit {
     margin-left: 2px;
     margin-right: 10px;
     border-radius: 10px;
@@ -324,19 +325,31 @@ img {
     text-align: center;
 }
 
-  #visit-us {
-    margin: 10px 0;
-    font-size: 150%;
-    text-align: center;
-}
-
-  .center-visit {
+.center-visit {
     line-height: 20px;
     text-align: center;
     border-radius: 10px;
     height: auto;
 }
 
+#visit-us {
+    margin: 10px 0;
+    font-size: 150%;
+    text-align: center;
+}   
+
+.google-map {
+    padding-bottom: 30%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
    /* contact information*/
 
    #contact {
