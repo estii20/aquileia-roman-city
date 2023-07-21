@@ -383,8 +383,9 @@ footer {
     margin-left: 20%;
     margin-right: auto;
     height: auto;
-    text-align: center;
-    display: inline-block;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
 }
 
 .contact {
@@ -402,6 +403,7 @@ label {
     display: inline-block;
     font-size: 1rem;
     padding: 10px;
+    margin: 5px 10px 5px 0;
 }
 
 #message {
@@ -423,13 +425,15 @@ label {
 .text-input {
     border: 1px solid #3a3a3a;
     border-radius: 5px;
-    padding: 4px;
     width: 95%;
     height: 25%;
     background: #F5F5DC;
     font-family: volkhov, sans-serif;
     color: #3a3a3a;
     font-size: 1rem;
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
 }
 
 .text-input:hover {
@@ -440,7 +444,6 @@ label {
     display: inline-block;
     margin-top: 4px;
     border-radius: 8px;
-    padding: 10px;
     background-color: #E96E14;
     text-align: center;
     font-size: 1rem;
@@ -449,6 +452,7 @@ label {
     font-family: volkhov, sans-serif;
     text-transform: uppercase;
     color: #3a3a3a;
+    padding: 10px 20px;
 }
 
 .send:hover {
@@ -472,6 +476,20 @@ label {
     }
 
 }
+
+/* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
+@media (max-width: 800px) {
+
+    #contact-form  {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .text-input {
+      margin: 10px 0;
+    }
+  
+  }
 
 
 /* For medium screen sizes from 768px wide */
