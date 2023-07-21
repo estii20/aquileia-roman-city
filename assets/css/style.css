@@ -112,7 +112,7 @@ p {
     width: 20%;
     margin-left: 20px;
     text-align: center;
-    background-color: antiquewhite;
+    background-color: #faebd7;
     border-radius: 8px;
     height: auto;
 }
@@ -182,7 +182,7 @@ img {
 
 .forum {
     margin-left: 10px;
-    background-color: antiquewhite;
+    background-color: #faebd7;
     border-radius: 10px;
     height: auto;
     line-height: 20px;
@@ -198,7 +198,7 @@ img {
     margin-left: 2px;
     margin-right: 10px;
     border-radius: 10px;
-    background-color: antiquewhite;
+    background-color: #faebd7;
     height: auto;
     line-height: 20px;
     text-align: center;
@@ -213,7 +213,7 @@ img {
     line-height: 20px;
     text-align: center;
     border-radius: 10px;
-    background-color: antiquewhite;
+    background-color: #faebd7;
     height: auto;
 }
 
@@ -258,25 +258,16 @@ footer {
     width: 90%;
     margin: auto;
     height: auto;
+    text-align: center;
 }
 
 #visitor-information p {
     padding: 10px;
     line-height: 1.5;
-    text-align: justify;
 }
 
 #visit {
     padding: 10px;
-    text-align: center;
-}
-
-#visit-us {
-    text-align: center;
-}
-
-#visit-us p {
-    text-align: center;
 }
 
 #left-visit {
@@ -308,7 +299,6 @@ footer {
     border-radius: 10px;
     height: auto;
     line-height: 20px;
-    text-align: center;
 }
 
 .right-visit {
@@ -317,20 +307,16 @@ footer {
     border-radius: 10px;
     height: auto;
     line-height: 20px;
-    text-align: center;
 }
 
 .center-visit {
     line-height: 20px;
-    text-align: center;
     border-radius: 10px;
     height: auto;
 }
 
 #visit-us {
     margin: 10px 0;
-    font-size: 150%;
-    text-align: center;
 }   
 
 .google-map {

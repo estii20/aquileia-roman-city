@@ -8,7 +8,7 @@ A website to attract and inform visitors of the historic Roman UNESCO site of Aq
 
 [Website Mock-up](https://ui.dev/amiresponsive?url=https://estii20.github.io/aquileia-roman-city/)
 
-![Aquileia Roman City](assets/images/readme-images/responsive-mock-up.png "Am I Responsive Mockup of Aquileia Roman City")
+![Aquileia Roman City](assets/images/readme-images/am-i-responsive.png "Am I Responsive Mockup of Aquileia Roman City")
 
 ## Table of contents
 
@@ -85,7 +85,7 @@ To create a clear visual guide to the user to promote the history of the site.
 __Background Color__
 
 Header and Footer both use ` #e96e14 `, a golden orange color to complement the Italian imagery palette selected from the hero image aided by the [eyedropper tool Chrome extension](https://chrome.google.com/webstore/category/extensions).
-Body uses a background color white ` #fafafa ` to contrast well with the charcoal font-color ` #3a3a3a `. Used the color light blue ` rgb(152, 207, 246, 0.5) ` with opacity to draw the reader's attention to the content without distracting from the information. The color was chosen for the background to compliment the colors of the sky in the images used.
+Body uses a background color light blue ` rgb(152, 207, 246, 0.5) ` to contrast well with the charcoal font-color ` #3a3a3a `. The color was chosen for the background to compliment the colors of the sky in the images used. The images in the what to see section have a container with the background color of ` #faebd7 ` when viewed on larger screens to frame the images from the body light blue color.
 
 [Colorspace](https://mycolor.space/) used to check the palette works together. 
 
@@ -133,13 +133,13 @@ Created in canva and features the main image of Aquileia as you enter the ruins.
 
 __Historical information and Timeline with key dates__
 
-![History and Timeline](assets/images/readme-images/history-timeline.png "Roman History section with Aquileia facts")
+![History and Timeline](assets/images/readme-images/history.png "Roman History section with Aquileia facts")
 
 The History section details the key information about the Roman site. To the right of the history section is a Timeline created using font awesome arrows to give the effect of a transfer between dates and key points about the site's history.
 
 __What to see section__
 
-![The Forum, The Port, The Market](assets/images/readme-images/visit.png "Roman Aquileia Forum, Market and Port")
+![The Forum, The Port, The Market](assets/images/readme-images/what-to-see.png "Roman Aquileia Forum, Market and Port")
 
 Features The Forum, The Market and The River Port.
 Each features an image of what to see at each area of the site.
@@ -167,15 +167,19 @@ __Visit page__
 
 __Visit section__
 
-![Visitor Information](assets/images/readme-images/visitor-information.png "Visitor Information")
+![Visitor Information](assets/images/readme-images/visit-info.png "Visitor Information")
 
 This section helps the user plan a visit to Aquileia.
+
+![Visitor Information](assets/images/readme-images/visit-info-2.png "Visitor Information")
 
 The first paragraph gives admission and opening times.
 The second paragraph details how to get to Aquileia by car, train and bus.
 Lastly there is a recommendation for local restaurants to encourage visitors to extend their stay.
 
 Images and a map are added to inform the user further.
+
+![Aquileia Roman City Website](assets/images/readme-images/map.png "Aquileia Roman City google map")
 
 __Contact page__
 
@@ -201,7 +205,6 @@ Information on alternative methods to contact Aquileia by email and phone are li
 
 ## Future Features
 
-It would be helpful in the future to link the map to google maps using Javascript.
 Further languages such as German and Spanish could be added to the site for non-English speakers.
 The Visit section could be updated to feature sponsored links to the restaurants listed. Therefore raising user experience and also revenue for the website.
 
@@ -261,13 +264,15 @@ Semantic html to define the different sections namely the header, sections and f
 
 ## Testing
 
-| Test | Outome |
-| --- | --- |
-| The Navigation Links respond to the correct page | Passed |
-| All external links open in correct page in a new tab/window | Passed |
-| Social media links in footer link correctly to the relevant external site | Passed |
-| Content is responsive in smaller and larger screen sizes | Passed |
-| Message Form correctly can obtain the correct format and requires an input | Passed |
+| Test | Expected Result | Outcome | 
+| --- | --- | --- |
+| The Navigation Links respond to the correct page  | The links in the logo and nav bar should direct the user to the index.html, visit.html and contact.html | The links all direct the user correctly | 
+| Google maps link opens in correct page in a new tab/window | When the user clicks on the link to view a larger map it opens a new tab/window with the correct map | The google map when clicked opens in a new tab/window with the correct map shown |
+| Social media links in footer link correctly to the relevant external site | The footer links open in the correct homepage for facebook, Twitter, youTube and Instagram | The links all open in a new page to the correct social media sites |  
+| Content is responsive in smaller and larger screen sizes | Text, images and forms all respond to large, medium and small device sizes | The content is responsive on all screen sizes |  
+| Contact Form correctly can obtain the correct format and requires an input | The form checks that information is added before the form can be submitted | Required fields of the form all require input from the user to submit the form |
+| Go to top link | The link on the bottom of the index.html and visit.html should take the user to the top of the page | The go to top link directs the user to the top of the index.html and visit.html pages |
+| Displays on different browsers | The layout should be responsive for different browers | The layout and colors do not change on different browsers |
 
 __Further testing__
 
@@ -279,15 +284,14 @@ Asked testers to check that the site was informative to them.
 
 Testers commented that SAT Nav coordinates and address should be added to the visit section.
 
+Browser test to check layout and colors are maintained as designed
+[Testing Bot](https://testingbot.com/members/manual/536005)
+
 ## Bugs and Fixes
 
 Dev tools in Chrome showed that the height of the visit and contact section needed to be increased.
 
-Media query for large screens added so that the site floats center with white space to the left and right when loaded.
-
 Safari browser used to test the contact form in case of variability to the design.
-
-Hero image appears depending on screen size. Small screens no image is displayed and a background color of light blue ` rgb(152, 207, 246, 0.5) ` is displayed to add color to the small screen.
 
 Font awesome styling amended using CSS only.
 
@@ -295,9 +299,27 @@ CSS to improve form accessibilty score on lighthouse. Improved the size of the s
 
 Removed text input for textarea as did not pass W3C test first time.
 
+Font size and `h1, h2, h3` changed so that the size was responsive to differing screen sizes using the `rem` and the `calc(1rem + 1vw)` in `style.css` file media queries.
+
+The contact form styled using `display: flex;` and `flex-flow` to make the form responsive.
+
+The background color removed from the what to see section images and the width adjusted for small screens.
+
+The layout for the `index.html` changed so that the Timeline was smaller but more visible.
+
+The layout for the visit section updated to make the information larger to the user.
+
+A google map added to the visit section to inform the user of the location.
+
+Go to top anchor link added so that when the user scrolls to the bottom of the page there is a quick way to get back to the top.
+
+Placeholder text added to the form fields for improved usability.
+
+Different Hero image added for smaller screen sizes less than 1100px.
+
 ## Unfixed Bugs
 
-None
+The browser tests showed that the input fields on the contact form in safari were displaying larger than expected. Improved understanding of css design compatibility in the future will help to fix this issue.
 
 __Validators__
 
@@ -308,17 +330,21 @@ Homepage, Visit page, Contact page and CSS all passed without error using W3C HT
 
 Screenshot of W3C Validator test, all pages passed 
 
-![Aquileia Roman City Website](assets/images/readme-images/visit-w3c.png "Aquileia Roman City wesbite validator test")
+![Aquileia Roman City Website](assets/images/readme-images/html.png "Aquileia Roman City wesbite validator test")
 
-![CSS](assets/images/readme-images/css-w3c.png "CSS for Aquileia Roman City website validator test")
+![Aquileia Roman City Website](assets/images/readme-images/visit-html.png "Aquileia Roman City wesbite validator test")
+
+![Aquileia Roman City Website](assets/images/readme-images/contact-html.png "Aquileia Roman City wesbite validator test")
+
+![CSS](assets/images/readme-images/css.png "CSS for Aquileia Roman City website validator test")
 
 Screenshot for Google Lighthouse test, all pages passed
 
-![Homepage](assets/images/readme-images/homepage-lighthouse.png "Aquileia Roamn City Visitor Information lighthouse test")
+![Homepage](assets/images/readme-images/lighthouse.png "Aquileia Roamn City Visitor Information lighthouse test")
 
-![Visit](assets/images/readme-images/visit-lighthouse.png "Aquileia Roman City Contact Form and Information lighthouse test")
+![Visit](assets/images/readme-images/lighthouse-visit.png "Aquileia Roman City Contact Form and Information lighthouse test")
 
-![Contact](assets/images/readme-images/contact-lighthouse.png "CSS for Aquileia Roman City website lighthouse test")
+![Contact](assets/images/readme-images/lighthouse-contact.png "CSS for Aquileia Roman City website lighthouse test")
 
 ## Deployment 
 
@@ -360,6 +386,14 @@ __Running the project locally;__
 
 11. It is now possible to work locally on the project.
 
+To make updates, it is necessary to commit with commit-m and push with git push so that the updates are pushed to Github.
+
+Cloning the project will link the changes to the project repo and will be sent for approval.
+
+Forking the project will create a new repo and the code will belong to the user. Any changes made will notify the user and will give them the option to pull this new code to their repo.
+
+Changes pushed to the main branch will automatically update on the site.
+
 ## Credits
 
 __Content__
@@ -385,9 +419,17 @@ Icons were taken from [Font Awesome](https://fontawesome.com/)
 
 README.md was adapted from [Steve-doc README.md](https://github.com/steve-doc/40-foot) 
 
+How to make a responsive google map [Blog Hotspot](https://blog.hubspot.com/website/how-to-embed-google-map-in-html)
+
+How to make a responsive form [W3schools](https://www.w3schools.com/howto/howto_css_inline_form.asp)
+
+How to make responsive font size [matthewjamestaylor.com](https://matthewjamestaylor.com/responsive-font-size)
+
 __Media__
 
 Map image taken from [Informaggiovani-Italia Aquileia Map](https://www.informagiovani-italia.com/map_of_aquileia.htm)
+
+Google map [Aquileia Google Map](https://www.google.com/maps/place/33051+Aquileia,+Province+of+Udine,+Italy/@45.770619,13.367954,13z/data=!4m6!3m5!1s0x477ba24ca837528b:0x4f9376da0182a5b3!8m2!3d45.7681691!4d13.3687199!16zL20vMGsxdjA?hl=en&gl=PT)
 
 ## Acknowledgements
 
