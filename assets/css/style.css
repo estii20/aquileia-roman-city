@@ -153,14 +153,13 @@ img {
 
 #what-to-see p {
     padding: 20px;
-    font-size: 1.5vw;
     line-height: 1.5;
 }
 
 #forum {
     float: left;
     max-width: 30%;
-    height: auto;
+    height: 400px;
     padding-top: 10px;
     padding-bottom: 30px;
 }
@@ -168,7 +167,7 @@ img {
 #river-port {
     float: right;
     max-width: 30%;
-    height: auto;
+    height: 400px;
     padding-top: 10px;
     padding-bottom: 30px;
 }
@@ -176,7 +175,7 @@ img {
 #market {
     margin: 0 auto;
     max-width: 30%;
-    height: auto;
+    height: 400px;
     padding-top: 10px;
     padding-bottom: 30px;
 }
@@ -229,14 +228,6 @@ img {
     text-align: center;
 }
 
-#top {
-    clear: both;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-family: volkhov, sans-serif;
-    font-size: 1rem;
-}
-
   /* footer */
 
 footer {
@@ -264,7 +255,7 @@ footer {
 #visitor-information {
     clear: both;
     max-width: 1200px;
-    width: 100%;
+    width: 90%;
     margin: auto;
     height: auto;
 }
@@ -372,6 +363,7 @@ footer {
 
 #contact p {
     padding: 4px;
+    font-size: 1.5rem;
     line-height: 1.5;
 }
 
@@ -379,13 +371,23 @@ footer {
     margin-top: 10%;
     margin-bottom: 10%;
     clear: both;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: auto;
-    height: auto;
+    min-height: 100vh;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+}
+
+#contact-info {
+    border-radius: 20px;
+    border: 1px solid #3a3a3a;
+    background-color: #F5F5DC;
+    clear: both;
+    margin: auto;
+    max-width: 90%;
+}
+
+#text {
+    font-size: 1rem;
 }
 
 .contact {
@@ -413,12 +415,14 @@ label {
 .contact-us {
     padding: 10px;
     text-align: center;
+    line-height: 1.5;
 }
 
 .contact-form {
     margin-left: auto;
     margin-right: auto;
-    max-width: 50%;
+    width: 600px;
+    max-width: 90%;
     padding: 30px;
 }
 
@@ -447,7 +451,6 @@ label {
     background-color: #E96E14;
     text-align: center;
     font-size: 1rem;
-    max-width: 25%;
     height: 25%;
     font-family: volkhov, sans-serif;
     text-transform: uppercase;
@@ -477,23 +480,8 @@ label {
 
 }
 
-/* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
-@media (max-width: 800px) {
-
-    #contact-form  {
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .text-input {
-      margin: 10px 0;
-    }
-  
-  }
-
-
-/* For medium screen sizes from 768px wide */
-@media screen and (max-width: 768px) {
+/* For medium screen sizes from 1100px wide */
+@media screen and (max-width: 1100px) {
 
     h1, h2, h3 {
         font-size: 1.75rem;
@@ -516,12 +504,41 @@ label {
         background: url('../images/columns_300x300.jpg') no-repeat center center;
     }
 
-    #top {
-        font-size: 1.75rem;
+    #forum, #river-port, #market {
+        float: none;
+        clear: both;
+        margin: auto;
+        max-width: 90%;
     }
 
     .river-port, .forum, .market {
         background: none;
+    }
+
+    #timeline {
+        clear: both;
+        margin-left: 20px;
+        text-align: center;
+        height: auto;
+        width: 100vw;
+        margin: auto;
+    }
+
+    #about-history {
+        float: none;
+        clear: both;
+        width: 100vw;
+        text-align: justify;
+        margin: auto;
+    }
+
+    #contact-form  {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #contact p {
+        font-size: 1.75rem;
     }
 
     label {
@@ -530,6 +547,7 @@ label {
     
     .text-input {
         font-size: 1.75rem;
+        margin: 10px 0;
     }
     
     .send {
@@ -542,7 +560,7 @@ label {
 @media screen and (max-width: 499px) {
 
     h1, h2, h3 {
-        font-size: 1rem + 1vw;
+        font-size: calc(1rem + 1vw);
     }
 
     p {
@@ -561,7 +579,7 @@ label {
 
     #about-history {
         clear: both;
-        max-width: 100%;
+        max-width: 90%;
         text-align: justify;
         margin-left: 10px;
         margin-right: 10px;
@@ -570,9 +588,8 @@ label {
     #timeline {
         display: inline-block;
         margin-top: 5%;
-        margin-left: 25%;
         clear: both;
-        width: 50%;
+        width: 100%;
     }
 
     .timeline h2 {
@@ -589,29 +606,21 @@ label {
         line-height: 1.5;
     }
 
-    /*.forum h3, .market h3, .river-port h3 {
-        padding-top: 4px;
-        padding-bottom: 10px;
-        font-size: 0.7em;
-    }*/
-
-    #top {
-        font-size: 1rem + 1vw;
+    #contact p {
+        font-size: calc(1rem + 1vw);
     }
 
     label {
-        font-size: 1rem + 1vw;
+        font-size: calc(1rem + 1vw);
     }
     
     .text-input {
-        font-size: 1rem + 1vw;
+        font-size: calc(1rem + 1vw);
     }
     
     .send {
-        font-size: 1rem + 1vw;
+        font-size: calc(1rem + 1vw);
     }
-
-
 }
 
 
@@ -627,5 +636,14 @@ label {
 
     #logo {
         font-size: 7vw;
+    }
+
+    h1, h2, h3 {
+        font-size: calc(1rem + 0.5vw);
+    }
+
+    #forum, #river-port, #market {
+        clear: both;
+        max-width: 90%;
     }
 }
