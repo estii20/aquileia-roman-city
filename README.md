@@ -28,7 +28,7 @@ A website to attract and inform visitors of the historic Roman UNESCO site of Aq
 
 To attract English speaking visitors to the UNESCO Roman City in Aquileia. It was one of the most important cities in the Roman Empire.
 Visitors have the opportunity to see the key historic sites of the Roman Forum, the River Port and the main Market square. The historical information is next to the images to provide a cohesive structure.
-A timeline offers users an easy to read timeline detailing key important dates.
+A timeline offers details key important dates.
 
 The purpose of the website is to provide visitors information so that they can plan their visit in advance. There is a map of the area, the contact details, admission price, opening times and a contact form for any further information.
 
@@ -162,7 +162,7 @@ __Visit page__
 - How to get there by car, train and bus
 - Admissions
 - Information about local restaurants
-- Images of Roman Arch, Map of Aquileia and nearby restaurant.
+- Images of Roman Arch Entrance, Map of Aquileia and nearby restaurant.
 - Footer with links to the Social Media platforms
 
 __Visit section__
@@ -251,6 +251,11 @@ __Eyedropper tool Chrome Extension__
 
 [Eyedropper tool Chrome extension](https://chrome.google.com/webstore/category/extensions) to find color for fonts within the main hero image.
 
+__Testing Bot__
+
+Browser test to check layout and colors are maintained as designed
+[Testing Bot](https://testingbot.com/members/manual/536005)
+
 
 ## Accessibility Features
 
@@ -272,7 +277,7 @@ Semantic html to define the different sections namely the header, sections and f
 | Content is responsive in smaller and larger screen sizes | Text, images and forms all respond to large, medium and small device sizes | The content is responsive on all screen sizes |  
 | Contact Form correctly can obtain the correct format and requires an input | The form checks that information is added before the form can be submitted | Required fields of the form all require input from the user to submit the form |
 | Go to top link | The link on the bottom of the index.html and visit.html should take the user to the top of the page | The go to top link directs the user to the top of the index.html and visit.html pages |
-| Displays on different browsers | The layout should be responsive for different browers | The layout and colors do not change on different browsers |
+| Displays on different browsers | The layout should be responsive for different browers | Responsive on different browsers |
 
 __Further testing__
 
@@ -283,9 +288,6 @@ Tested on different browsers to ensure functionality.
 Asked testers to check that the site was informative to them.
 
 Testers commented that SAT Nav coordinates and address should be added to the visit section.
-
-Browser test to check layout and colors are maintained as designed
-[Testing Bot](https://testingbot.com/members/manual/536005)
 
 ## Bugs and Fixes
 
@@ -317,9 +319,11 @@ Placeholder text added to the form fields for improved usability.
 
 Different Hero image added for smaller screen sizes less than 1100px.
 
+The browser tests showed that the input fields on the contact form in Firefox were displaying larger than expected. I added a height in pixels instead of using a percentage so that the layout of the form was unchanged.
+
 ## Unfixed Bugs
 
-The browser tests showed that the input fields on the contact form in safari were displaying larger than expected. Improved understanding of css design compatibility in the future will help to fix this issue.
+None
 
 __Validators__
 
