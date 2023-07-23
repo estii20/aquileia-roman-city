@@ -107,6 +107,8 @@ p {
     text-align: justify;
 }
 
+/* timeline */
+
 #timeline{
     float: left;
     width: 20%;
@@ -270,6 +272,12 @@ footer {
     padding: 10px;
 }
 
+#visit-us {
+    margin: 10px 0;
+}
+
+/* Entrance, Location and Restaurants section */
+
 #left-visit {
     float: left;
     max-width: 30%;
@@ -315,9 +323,7 @@ footer {
     height: auto;
 }
 
-#visit-us {
-    margin: 10px 0;
-}   
+/* Google map section */
 
 .google-map {
     padding-bottom: 30%;
